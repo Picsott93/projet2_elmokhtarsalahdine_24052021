@@ -963,9 +963,8 @@ header .p1
    box-shadow: 1px 1px 6px silver ;
    width: 90%;
    height: 145px;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
    margin-left: 15px;
-   
 }
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 
@@ -1004,7 +1003,7 @@ header .p1
    flex-direction: column;
    padding-top: 20px;
    height: 300px;
-   margin-top: 165px;
+   margin-top: 170px;
 }
 
 #marspopul
