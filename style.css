@@ -4,7 +4,7 @@ body
 {
    width: 100%;
    height: 100%; 
-   font-family :'Raleway  f',sans-serif;
+   font-family :'Raleway ',sans-serif;
    
 } 
 
@@ -26,8 +26,6 @@ img.imgreservia
    color: #0065FC;
    width: 8%;
    height: 70%;
-   
-   
 }
 .link 
 {
@@ -100,6 +98,7 @@ nav
 #listefiltre 
 {
    margin-top: 2%;
+   
   
 }
 .ulfiltres i
@@ -114,10 +113,10 @@ nav
 
 .Filtres
 {
-   margin-top: 1%;
+   margin-top: 2.3%;
    color: black;
    font-weight: bold;
-   font-size: 11px;
+   font-size: 1.3em;
    
 }
 
@@ -125,8 +124,8 @@ nav
 .ulfiltres /* liste des filtres avec icone (child ,heart ...*/
 {  
    width: 75%;
-   
-   font-size: 10px;
+  
+   font-size: .7em;
    list-style: none;
    display: flex;
    justify-content: space-around;
@@ -135,7 +134,7 @@ nav
 .fam1,.fam2,.fam3,.fam4
 { 
    width: 20%;
-   height: 4em;
+   height: 3em;
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
@@ -149,22 +148,23 @@ nav
 }
 .fas.fa-money-bill-wave
 {
-   width: 21.44px;
-   height: 21.44px;
+   width: 14px;
+   height: 14px;
    border-radius:50%;
+   background-position: top;
 }
 .fas.fa-heart 
 {
-   width: 21.44px;
-   height: 21.44px;
+   width: 14px;
+   height: 14px;
    border-radius:50%;
    
   
 }
 .fas.fa-child 
 {
-   width: 21.44px;
-   height: 21.44px;
+   width: 14px;
+   height: 14px;
    border-radius:50%;
    
 }
@@ -172,13 +172,14 @@ nav
 
 .fas.fa-dog 
 {
-   width: 21.44px;
-   height:21.44px;
+   width: 14px;
+   height: 14px;
    border-radius:50%;
+  
 }
 i.fas.fa-child::before,i.fas.fa-heart::before,.fas.fa-money-bill-wave::before,i.fas.fa-dog::before 
 {
-   padding-left: 6px;
+   
    
 }
 span.ecotexte 
@@ -229,6 +230,7 @@ div.boxinfo /*comprend icone info et texte*/
 {
    display: flex;
    justify-content:start;
+   
 }
 
 form
@@ -284,6 +286,7 @@ form
    display: flex;
    width: 97%;
    margin-left: 2%;
+   margin-top: 2%;
    
 }
 .section4
@@ -695,7 +698,7 @@ footer
 {  
    background-color: #f2f2f2;
    font-size: 12px;
-   height: 15em;
+   height: 13em;
    width: 98%;
    display: flex;
    justify-content: space-around;
@@ -769,8 +772,8 @@ span.assistance
 {
 body 
 {
-   width: 375px;
-   height: 2710px;
+   width: 100%;
+   height: 3500px;
       
 }
 nav
@@ -913,15 +916,14 @@ header .p1
    margin-top: 180px;
    align-content: space-around;
    width: 100%;
-   height:1230px;
+   height:1350px;
    
 }
 #marsheber
 {
    width: 100%;
-   height: 800px;
-   margin-left: 0px;
-   margin-right: 0px;
+   height: 1000px;
+   margin-top: 10%;
    background-color: white;
 }
 #marsheber h5
@@ -940,8 +942,17 @@ header .p1
 .photoh1,.photoh2,.photoh3
 {
    box-shadow: 1px 1px 6px silver ;
-   width: 95%;
+   width: 90%;
+   height: 145px;
    margin-top: 10px;
+   margin-left: 9px;
+}
+.photoh4,.photoh5,.photoh6 
+{
+   box-shadow: 1px 1px 6px silver ;
+   width: 90%;
+   height: 145px;
+   margin-bottom: 5px;
    margin-left: 9px;
    
 }
@@ -950,14 +961,7 @@ header .p1
 {
    object-fit: cover;
 }
-.photoh4,.photoh5,.photoh6 
-{
-   box-shadow: 1px 1px 6px silver ;
-   width: 95%;
-   margin-bottom: 5px;
-   margin-left: 9px;
-   object-fit: cover;
-}
+
 .photoh5,.photoh6 
 {
    margin-top: 10px;
@@ -971,14 +975,17 @@ header .p1
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
 {
    width: 99%;
-   height: 55%;
+  
+  
 }
 
 
 .troistrois1
 { 
    width: 100%;
-   height: 720px;
+   height: 900px;
+   margin-top: 100px;
+   
    
    
 }
@@ -986,20 +993,23 @@ header .p1
 {
    flex-direction: column;
    height: 300px;
-   margin-bottom: 40px;
+   
 }
 .trois1 
 {
    flex-direction: column;
    padding-top: 20px;
    height: 300px;
+   margin-top: 165px;
 }
 
 #marspopul
 {
    width: 100%;
-   height: 370px;
-   margin-top: 80px;
+   height: 500px;
+   margin-top: 200px;
+   
+   
      
 }
 div.bourse 
@@ -1015,15 +1025,15 @@ div.bourse
 }
 .bourse h5
 {
-   width: 75%;
+   width: 100%;
    font-size: 18px;
    
 }
 .fas.fa-chart-line
 {
     
-    width: 100px;
-    margin-left: 35%;
+    width: 40px;
+    
 }
 .photopop1
 {
@@ -1072,13 +1082,13 @@ form
 }
 #listefiltre 
 {
-   height: 300px;
+   height: 270px;
    
 }
 .ulfiltres 
 {
    width:97%;
-   height: 170px;
+   height: 63%;
    margin-left: 10px;
    flex-wrap: wrap;
    
@@ -1088,21 +1098,20 @@ form
   
    margin-left: 15px;
    font-weight: bold;
-   margin-right:300px;
+   margin-right:85%;
    flex-wrap: wrap;
    font-size: 14px;
 }
-.fam1
-{
-   width: 60%;
-   height: 28px;
-   margin-left: 10px;
-}
-.fas.fa-heart 
+
+.fas.fa-heart /*icone rond filtres-------------------------------------------------*/
 {
    width: 12px;
    height: 12px;
    border-radius:50%;
+}
+.fas.fa-heart::before 
+{
+   padding-left: 0%;
 }
 .fas.fa-child 
 {
@@ -1110,36 +1119,55 @@ form
    height: 12px;
    border-radius:50%;
 }
+.fas.fa-child ::before 
+{
+   padding-left: 0%;
+}
 .fas.fa-money-bill-wave 
 {
    width: 12px;
    height: 12px;
    border-radius:50%;
 }
+.fas.fa-money-bill-wave::before 
+{ 
+   padding-left: 0%;
+}
 .fas.fa-dog 
 {
    width: 12px;
-   height: 12px;
+   height: 1;
    border-radius:50%;
+}
+.fas.fa-dog::before 
+{
+   padding-right: 2%;
+   
+}
+.fam1
+{
+   width: 40%;
+   height: 20%;
+   margin-left: 10px;
 }
 .fam2
 {
-   width: 30%;
-   height: 28px;
+   width: 40%;
+   height: 20%;
    margin-right: 10px;
   
 }
 .fam3
 {
-   width: 45%;
-   height: 28px;
-   margin-left: 10px;
+   width: 50%;
+   height: 20%;
+   margin-right: 45%;
 }
 .fam4 
 {
-   width: 70%;
-   height: 28px;
-   margin-left: 10px;
+   width: 50%;
+   height: 20%;
+   margin-right: 20%;
   
 }
 .fam4:hover,.fam3:hover,.fam2:hover,.fam1:hover 
@@ -1150,8 +1178,6 @@ div.boxinfo
 {
    width:55%;
    margin-left: 20px;
-   
-
 }
 .section4 
 {
@@ -1169,9 +1195,6 @@ div.boxinfo
    padding-left: 20px;
    padding-top: 10px;
    margin-left: 0px;
-   
-   
-   
 }
 .section4 h5
 {
@@ -1182,7 +1205,7 @@ div.boxinfo
 
 .photoa1,.photoa4
 {
-   width: 95%;
+   width: 100%;
    height: 100px;
    margin-bottom: 15px;
    object-fit: cover;
@@ -1234,8 +1257,6 @@ div.boxinfo
 {
    width: 337.5px;
    height: 210px;
-   
-
 }
 footer 
 {
@@ -1243,9 +1264,6 @@ footer
    height: 310px;
    display: block;
    margin-bottom: 0px;
-   
-   
-   
 }
 .apropos 
 {
@@ -1254,7 +1272,7 @@ footer
    margin-top:10px;
    width: 70%;
 }
-.apropos strong 
+.apropos strong  
 {
    
    margin-top: 25px;
@@ -1270,7 +1288,4 @@ footer
    font-size: 12px;
    margin-left: 30px;
    margin-top: 20px;
-}
-
-
-} 
+} }
