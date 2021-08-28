@@ -6,6 +6,14 @@ body
    height: 100%; 
    font-family :'Raleway ',sans-serif;
    
+}
+.traitdekstop 
+{
+   width: 13%;
+   margin-left: 62%;
+   margin-bottom: 3%;
+   background-color: #0065FC;
+   height: 1px;
 } 
 
 header
@@ -25,7 +33,7 @@ img.imgreservia
 {   
    color: #0065FC;
    width: 8%;
-   height: 70%;
+   
 }
 .link 
 {
@@ -177,15 +185,12 @@ nav
    border-radius:50%;
   
 }
-i.fas.fa-child::before,i.fas.fa-heart::before,.fas.fa-money-bill-wave::before,i.fas.fa-dog::before 
-{
-   
-   
-}
+
 span.ecotexte 
 {
    color: black;
    font-size: 130%;
+   width: 85%;
    
 }
 
@@ -303,6 +308,7 @@ form
 h5 
 {
    font-weight: bold;
+   opacity: .6;
 }
 #marsheber
 {  
@@ -777,8 +783,14 @@ span.assistance
 body 
 {
    width: 100%;
-   
-      
+}
+.traitdekstop 
+{
+   opacity: 0;
+}
+img.imgreservia 
+{
+   width: 30%;
 }
 nav
 {
@@ -855,10 +867,6 @@ nav
    font-size: 12px;
    margin-left: 10px;
 }
-
-   
-   
-
 .recherchebleu 
 {
    display: none;
@@ -1144,15 +1152,15 @@ form
 }
 .fam1
 {
-   width: 40%;
+   width: 50%;
    height: 20%;
-   margin-left: 10px;
+   
 }
 .fam2
 {
-   width: 40%;
+   width: 45%;
    height: 20%;
-   margin-right: 10px;
+   
   
 }
 .fam3
@@ -1165,7 +1173,7 @@ form
 {
    width: 50%;
    height: 20%;
-   margin-right: 20%;
+   margin-right: 44%;
   
 }
 .fam4:hover,.fam3:hover,.fam2:hover,.fam1:hover 
