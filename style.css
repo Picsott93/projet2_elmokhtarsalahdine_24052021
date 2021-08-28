@@ -357,7 +357,7 @@ h5
    padding-left: 10px;
    display: flex;
    align-items: center;
-   padding-top: 60%;
+   padding-top: 40%;
     
 }
 
@@ -773,7 +773,7 @@ span.assistance
 body 
 {
    width: 100%;
-   height: 3500px;
+   
       
 }
 nav
@@ -913,7 +913,7 @@ header .p1
 .section2
 {
    flex-direction: column-reverse;
-   margin-top: 180px;
+   margin-top: 370px;
    align-content: space-around;
    width: 100%;
    height:1350px;
@@ -935,7 +935,7 @@ header .p1
 .afficherplus 
 {
    width: 50%;
-   margin-top: 40px;
+   margin-top: 100px;
    padding-left: 30px;
    font-size: 12px;
 }
@@ -945,7 +945,7 @@ header .p1
    width: 90%;
    height: 145px;
    margin-top: 10px;
-   margin-left: 9px;
+   margin-left: 15px;
 }
 .photoh4,.photoh5,.photoh6 
 {
@@ -953,7 +953,7 @@ header .p1
    width: 90%;
    height: 145px;
    margin-bottom: 5px;
-   margin-left: 9px;
+   margin-left: 15px;
    
 }
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
@@ -975,6 +975,7 @@ header .p1
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
 {
    width: 99%;
+   height: 60%;
   
   
 }
@@ -983,7 +984,7 @@ header .p1
 .troistrois1
 { 
    width: 100%;
-   height: 900px;
+   height: 870px;
    margin-top: 100px;
    
    
@@ -1039,7 +1040,7 @@ div.bourse
 {
    width: 90%;
    box-shadow: 1px 1px 6px silver ;
-   object-fit: cover;
+   
   
 }
 .photopop1p 
@@ -1052,7 +1053,7 @@ div.bourse
    width: 90%;
    box-shadow: 1px 1px 6px silver ;
 
-   object-fit: cover;
+   
 }
 .photopop2p 
 {
@@ -1063,13 +1064,14 @@ div.bourse
 {
    width: 90%;
    box-shadow: 1px 1px 6px silver ;
-   object-fit: cover;
+   
 }
 .photopop3p 
 {
    width: 90%;
  
 }
+
 form 
 {
    width: 95%;
@@ -1183,7 +1185,8 @@ div.boxinfo
 {
    flex-direction: column;
    width: 100%;
-   height: 700px;
+   height: 1000px;
+   margin-top: 70px;
 }
 
 #marsactiv                                        
@@ -1200,35 +1203,37 @@ div.boxinfo
 {
    font-size: 18px;
    margin-top: 30px;
+   margin-left: 17px;
    
 }
 
 .photoa1,.photoa4
 {
-   width: 100%;
-   height: 100px;
+   width: 90%;
+   height: 145px;
    margin-bottom: 15px;
-   object-fit: cover;
+   
 }
+
 
 .photoa2,.photoa3 
 {
    width: 100%;
-   height: 100Px;
+   height: 145Px;
    margin-bottom: 5px;
-   object-fit: cover;
+   
 }
 .photoa5,.photoa6
 {
    width: 100%;
-   height: 100Px;
-   object-fit: cover;
+   height: 145Px;
+   padding-left: 5px;
 }
 
 .photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 {
    width: 99%;
-   height: 75%;
+   height: 65%;
    padding-left: 0.5%;
 }
 
@@ -1249,7 +1254,7 @@ div.boxinfo
 .pomfrioul 
 {
    width: 337.5px;
-   height: 210px;
+   height: 300px;
    margin-bottom: 10px;
    
 }
