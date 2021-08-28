@@ -7,7 +7,7 @@ body
    font-family :'Raleway ',sans-serif;
    
 }
-.traitdekstop 
+.traitdesktop 
 {
    width: 13%;
    margin-left: 62%;
@@ -27,6 +27,7 @@ header h5
 {
    margin-bottom: 1%;
    font-size: 24px;
+   
  
 }
 img.imgreservia
@@ -291,7 +292,7 @@ form
    display: flex;
    width: 97%;
    margin-left: 2%;
-   margin-top: 2%;
+   margin-top: 5%;
    
 }
 .section4
@@ -302,7 +303,7 @@ form
 .section4 h5
 {
    padding-left: 2.6%;
-   margin-bottom: 1%;
+   
    font-size: 24px;
 }
 h5 
@@ -784,7 +785,7 @@ body
 {
    width: 100%;
 }
-.traitdekstop 
+.traitdesktop 
 {
    opacity: 0;
 }
