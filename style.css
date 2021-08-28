@@ -149,12 +149,17 @@ nav
    font-weight: bold;
    margin-top: 10px;
 }
-
-
-.fam4:hover,.fam3:hover,.fam2:hover,.fam1:hover 
+span.ecotexte 
 {
-    color:#0065FC ; 
+   color: black;
+   font-size: 130%;
+   width: 85%;
 }
+span.ecotexte:hover
+{
+   color: #0065FC;
+}
+
 .fas.fa-money-bill-wave
 {
    width: 14px;
@@ -187,13 +192,6 @@ nav
   
 }
 
-span.ecotexte 
-{
-   color: black;
-   font-size: 130%;
-   width: 85%;
-   
-}
 
 
 
@@ -1175,12 +1173,14 @@ form
    width: 50%;
    height: 20%;
    margin-right: 44%;
-  
 }
-.fam4:hover,.fam3:hover,.fam2:hover,.fam1:hover 
+.fam1:hover,.fam2:hover,.fam3:hover,.fam4:hover
 {
-    color:#0065FC ;
+   color: #0065FC;
 }
+
+
+
 div.boxinfo 
 {
    width:55%;
