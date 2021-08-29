@@ -62,7 +62,7 @@ nav
 .enfant1
 {
    font-size: 0.75em;
-   color: #0065FC;
+
    padding-left: 50%;
    
 }
@@ -81,7 +81,7 @@ nav
 {
    text-decoration: none;
    color:#0065FC;
-   font-weight: bold;
+   opacity: .7;
    
    
 }
@@ -151,9 +151,9 @@ nav
 }
 span.ecotexte 
 {
-   color: black;
-   font-size: 130%;
-   width: 85%;
+   color:yellow;
+   
+   width: 0%;
 }
 span.ecotexte:hover
 {
@@ -956,7 +956,7 @@ header .p1
    width: 90%;
    height: 145px;
    margin-top: 10px;
-   margin-left: 15px;
+   margin-left: 12px;
 }
 .photoh4,.photoh5,.photoh6 
 {
@@ -964,7 +964,7 @@ header .p1
    width: 90%;
    height: 145px;
    margin-bottom: 15px;
-   margin-left: 20px;
+   margin-left: 12px;
 }
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 
@@ -980,8 +980,6 @@ header .p1
    height: 60%;
    margin-left: .5%;
    margin-top: .5%;
-  
-  
 }
 
 
@@ -1007,6 +1005,8 @@ header .p1
    padding-top: 20px;
    height: 300px;
    margin-top: 170px;
+   
+   
 }
 
 #marspopul
@@ -1118,7 +1118,7 @@ form
 }
 .fas.fa-heart::before 
 {
-   padding-left: 0%;
+   margin-left: 0%;
 }
 .fas.fa-child 
 {
@@ -1128,7 +1128,7 @@ form
 }
 .fas.fa-child ::before 
 {
-   padding-left: 0%;
+   margin-left: 100%;
 }
 .fas.fa-money-bill-wave 
 {
@@ -1217,41 +1217,35 @@ div.boxinfo
    font-size: 24px;
    margin-top: 30px;
    margin-left: 17px;
-   
 }
-
 .photoa1,.photoa4
 {
    width: 90%;
    height: 145px;
    margin-bottom: 15px;
-   
+   margin-left: 3.5px;
 }
-
-
 .photoa2,.photoa3 
 {
-   width: 100%;
+   width: 90%;
    height: 145Px;
    margin-bottom: 5px;
+   margin-left: 3.5px;
    
 }
 .photoa5,.photoa6
 {
-   width: 100%;
+   width: 90%;
    height: 145Px;
-   padding-left: 5px;
+   
+   margin-left: 3.5px;
 }
-
 .photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 {
    width: 98.3%;
    height: 65%;
    margin-right: 1px;
 }
-
-
-
 .photoa3
 {
    margin-top: 10px;
@@ -1268,22 +1262,23 @@ div.boxinfo
 
 .pomfrioul 
 {
-   width: 337.5px;
+   width: 100%;
    height: 300px;
    margin-bottom: 10px;
    
 }
 .gardechamps 
 {
-   width: 337.5px;
+   width: 100%;
    height: 210px;
+   margin-bottom: 10px;
 }
 footer 
 {
    width: 100%;
    height: 310px;
    display: block;
-   margin-bottom: 0px;
+   margin-top: 20px;
 }
 .apropos 
 {
@@ -1308,4 +1303,5 @@ footer
    font-size: 12px;
    margin-left: 30px;
    margin-top: 20px;
-} }
+}
+}
