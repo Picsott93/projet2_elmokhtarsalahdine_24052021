@@ -22,7 +22,8 @@ header h5
 img.imgreservia
 {   
    color: #0065FC;
-   width: 8%;
+   width: 110px;
+   height: 50px;
 }
 .link 
 {
@@ -45,7 +46,7 @@ nav
 .enfant1
 {
    font-size: 1.3em;
-   padding-left: 900px;
+   padding-left: 59%;
    
 }
 .enfant2 
@@ -70,15 +71,59 @@ nav
    text-decoration: none;
    color: black;
    font-weight: bold;
+   opacity: .6;
 }
 .souligne3
 {
    text-decoration: none;
    color:#0065FC;
-   
    font-weight: bold;
 }
 
+form
+{
+   height: 100px;
+   display: flex;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#ici
+{  
+   width: 70px;
+   height: 70px;
+   background-color: #f2f2f2;
+   color: black;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px 0px 0px 10px;
+}
+#recherche
+{
+    background-color:white;
+    font-size: 20px;
+    width: 25%;
+    height: 70px;
+    border: 2px  solid #f2f2f2;
+}
+.arecherche 
+{
+    opacity: 0;
+}
+.recherchebleu
+{   
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #0065FC;
+    width: 15%;
+    height: 52px;
+    padding-left: 9px;
+    padding-top: 17.3px;
+    border-radius: 0px 15px 15px 0px;
+    
+}
 
 .ulfiltres i
 {
@@ -108,8 +153,8 @@ nav
 
 .fam1
 { 
-   width: 180px;
-   
+   width: 190px;
+   height: 90%;
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
@@ -118,8 +163,8 @@ nav
 }
 .fam2 
 {
-   width: 130px;
-   
+   width: 140px;
+   height: 90%;
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
@@ -129,8 +174,8 @@ nav
 }
 .fam3
 { 
-   width: 180px;
-   
+   width: 190px;
+   height: 90%;
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
@@ -139,12 +184,16 @@ nav
 }
 .fam4 
 {
-   width: 240px;
+   width: 260px;
    height: 90%;
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
    font-size:22px;
+}
+span.ecotexte 
+{
+   opacity: .8;
 }
 span.ecotexte:hover
 {
@@ -236,52 +285,8 @@ div.boxinfo /*comprend icone info et texte*/
    justify-content:start;
 }
 
-form
-{
-   height: 100px;
-   display: flex;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-#ici
-{  
-   width: 70px;
-   height: 70px;
-   background-color: #f2f2f2;
-   color: black;
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 10px 0px 0px 10px;
-}
-#recherche
-{
-    background-color:white;
-    font-size: 20px;
-    color: black;
-    width: 25%;
-    height: 70px;
-    border: 2px  solid #f2f2f2;
-}
-.arecherche 
-{
-    opacity: 0;
-}
-.recherchebleu
-{   
-    font-size: 1.5em;
-    font-weight: bold;
-    color: white;
-    background-color: #0065FC;
-    width: 15%;
-    height: 52px;
-    padding-left: 9px;
-    padding-top: 17.3px;
-   
-    border-radius: 0px 15px 15px 0px;
-    padding: auto;
-}
+
+
 .section2
 {
    display: flex;
@@ -298,7 +303,7 @@ form
 .section4 h5
 {
    padding-left: 2.6%;
-   
+   opacity: .6;
    font-size: 24px;
 }
 h5 
@@ -777,11 +782,9 @@ span.assistance
 body 
 {
    font-family:"raleway";
+   
 }
-.traitdesktop 
-{
-   opacity: 0;
-}
+
 
 nav
 {
@@ -821,54 +824,8 @@ nav
    display: flex;
    justify-content: space-around;
 }
-.trait12 
-{
-   display: flex;
-   margin-top: 5px;
-   background-color:#f2f2f2;
-   
-}
-.trait1 
-{
-   width: 50%;
-   height: 2px;
-   color: #f2f2f2;
-}
-.trait1:hover 
-{
-   background-color: #0065FC;
-}
-.trait2 
-{
-   width: 50%;
-   height: 2px;
-   color: #f2f2f2;
-}
-.trait2:hover 
-{
-   background-color: #0065FC;
-}
-.souligne1
-{
-   
-   margin-right: 20%;
-   font-size: 20px;
-   
-}
-.souligne2 
-{
-   font-size: 20px;
-   opacity: .4;
-   
-}
 
-.souligne3 
-{
-   margin-top: 20px;
-   font-size: 20px;
-   margin-left: 8%;
-   
-}
+
 #ici
 {
    width: 50px;
@@ -1312,7 +1269,7 @@ footer
    margin-left: 30px;
    margin-top: 20px;
 }}
-@media screen and (max-width:876px) and (min-width:463px)/*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
+@media screen and (max-width:876px) and (min-width:464px)/*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 {
 
    body 
@@ -1320,10 +1277,7 @@ footer
    font-family:"raleway";
   
 }
-.traitdesktop 
-{
-   opacity: 0;
-}
+
 
 nav
 {
@@ -1365,54 +1319,7 @@ nav
    display: flex;
    justify-content: space-around;
 }
-.trait12 
-{
-   display: flex;
-   margin-top: 5px;
-   background-color:#f2f2f2;
-   
-}
-.trait1 
-{
-   width: 50%;
-   height: 2px;
-   color: #f2f2f2;
-}
-.trait1:hover 
-{
-   background-color: #0065FC;
-}
-.trait2 
-{
-   width: 50%;
-   height: 2px;
-   color: #f2f2f2;
-}
-.trait2:hover 
-{
-   background-color: #0065FC;
-}
-.souligne1
-{
-   
-   margin-right: 20%;
-   font-size: 20px;
-   
-}
-.souligne2 
-{
-   font-size: 20px;
-   opacity: .4;
-   
-}
 
-.souligne3 
-{
-   margin-top: 20px;
-   font-size: 20px;
-   margin-left: 8%;
-   
-}
 #ici
 {
    width: 50px;
@@ -1445,7 +1352,7 @@ nav
    width: 72%;
    height: 40px;
    font-size: 18px;
-   font-style: normal;
+   
    font-weight: bold;
    opacity: .9;
 }
@@ -1465,6 +1372,11 @@ form
 {
    margin-top: 15px;
 }
+.fam3
+{
+   margin-top: 15px;
+}
+
 header
 {
    margin-left: 0px;
@@ -1644,6 +1556,10 @@ div.boxinfo
    margin-left: 20px;
   
 }
+p.p1 
+{
+   font-size: 17px;
+}
 p.p2 
 {
    width: 60%;
@@ -1768,3 +1684,124 @@ footer
    margin-left: 30px;
    margin-top: 20px;
 }}
+@media screen and (max-width: 1100px) and (min-width:877px)
+{
+.enfant1
+{
+   font-size: 1.3em;
+   padding-left: 50%;
+}}
+@media screen and (max-width:876px)
+{
+.souligne1
+{
+   margin-right: 20%;
+   font-size: 20px;
+}
+.souligne2 
+{
+   font-size: 20px;
+   opacity: .4;
+}
+   
+.souligne3 
+{
+   margin-top: 20px;
+   font-size: 20px;
+   padding-left: 11%;
+}}
+@media screen and (max-width:876px) and (min-width:680px)
+{
+.fam1,.fam2
+{
+   margin-top: 15px;
+}}
+@media screen and (max-width:876px) and (min-width:689px)
+{
+.section2 
+{
+   margin-top: 0px;
+}
+}
+@media screen and (max-width:563px) and (min-width:464px)
+{
+div.boxinfo 
+{
+   margin-top: 155px;
+}} 
+@media screen and (max-width:463px) and (min-width:375px)  
+{
+div.boxinfo
+{
+   margin-top: 155px;
+}
+.section2 
+{
+   margin-top: 30px;
+}
+}
+@media screen and (max-width:1000px) and (min-width:877px)  
+{
+.souligne2 
+{
+   margin-right: -20px;
+   
+}
+.link 
+{
+   width: 95%;
+}
+.souligne1 
+{
+   margin-left: -10%;
+}
+.souligne3 
+{
+   margin-left: 10px;
+}
+}
+@media screen and (max-width:375px)
+{
+.section2 
+{
+   margin-top: 70px;
+}
+.boxinfo
+{
+   padding-top: 30px;
+}   
+}
+@media screen and (max-width:876px) and (min-width:450px)
+{
+.souligne1 
+{
+   margin-right: 50%;
+}
+.souligne3 
+{
+   margin-left: 25%;
+}
+}
+@media screen and (max-width:600px) and (min-width:564px)
+{
+.boxinfo 
+{
+   padding-top: 35px;
+}
+}
+@media screen and (max-width:918px) and (min-width:877px)
+{
+.boxinfo
+{
+   padding-top: 60px;
+}
+.section2 
+{
+   margin-top: 110px;
+}
+.fam4 
+{
+   margin-left: 57px;
+   margin-top: 15px;
+} 
+}
