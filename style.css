@@ -444,6 +444,7 @@ h5
    opacity: .5;
    padding-top: 5px;
    flex-wrap: wrap;
+   
 }
 .E /*25 euros hebergements */ 
 {
@@ -1706,7 +1707,12 @@ footer
    margin-top: 20px;
    font-size: 20px;
    padding-left: 11%;
-}}
+}
+#marsheber .police2
+{
+   height: 1px;
+}
+}
 @media screen and (max-width:876px) and (min-width:680px)
 {
 .fam1,.fam2
@@ -1768,18 +1774,109 @@ div.boxinfo
 }
 @media screen and (max-width:375px)
 {
+body 
+{
+   height: 3700px;
+}
+.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6 
+{
+   height: 170px;
+}
+.photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6
+{
+   margin-left: 15px;
+}
+a.souligne3 
+{
+   margin-left: 0%;
+   padding-left: 30px;
+
+}
+a.souligne1
+{
+   width: 200px;
+   margin-right: 0%;
+   
+}
+#marsactiv
+{
+   padding-left: 0%;
+}
+#marspopul 
+{
+   width: 100%;
+   margin-bottom: 0px;
+   margin-bottom: 80px;
+}
+.nav2ligne2
+{
+   background-color: white;
+}
+.p2 
+{
+   margin-top: 0px;
+}
+i.ifas.fa-info 
+{
+   margin-top: 1px;
+}
 .section2 
 {
+   height: 1550px;
    margin-top: 70px;
+}
+.section4 
+{
+   width: 100%;
+   margin-top: 160px;
+  
+}
+.section4 h5
+{
+   padding-top: 15px;
+   margin-bottom: 2%;
+   padding-left: 0%;
+  
 }
 .boxinfo
 {
    padding-top: 30px;
 }
+#marsheber 
+{
+   margin-top: -40px;
+}
 #marsheber .police,.police2
 {
    font-size: 14px;
-}   
+  
+} 
+#marsheber .etoilebleue 
+{
+   margin-top: 10px;
+}
+#marsheber h5 
+{
+   padding-bottom: 50px;
+   padding-left: 10px;
+}
+
+.trois2,.trois1
+{
+   height: 550px;
+}
+.trois1 
+{
+   margin-top: 120px;
+}
+footer 
+{
+   margin-left: 0%;
+   margin-top: -7%;
+   height: 350px;
+   
+   
+}
 }
 @media screen and (max-width:876px) 
 {
