@@ -1275,6 +1275,18 @@ footer
    font-family:"raleway";
   
 }
+a.souligne3 
+{
+   margin-left: 0%;
+   padding-left: 25%;
+
+}
+a.souligne1
+{
+   
+   margin-right: 45%;
+   
+}
 
 
 nav
@@ -1681,6 +1693,10 @@ footer
    font-size: 12px;
    margin-left: 30px;
    margin-top: 20px;
+}
+#marspopul .etoilebleue 
+{
+   margin-top: 100px;
 }}
 @media screen and (max-width: 1200px) and (min-width:877px)
 {
@@ -1737,17 +1753,53 @@ div.boxinfo
 {
    margin-top: 50px;
     
+}
+a.souligne3 
+{
+   margin-left: 0%;
+   padding-left: 21%;
+
+}
+a.souligne1
+{
+   
+   margin-right: 25%;
+   
 }} 
 @media screen and (max-width:463px) and (min-width:375px)  
 {
-
+   a.souligne3 
+   {
+      margin-left: 0%;
+      padding-left: 15%;
+   
+   }
+   a.souligne1
+   {
+     
+      margin-right: 20%;
+      
+   }
 div.boxinfo
 {
    margin-top: 155px;
 }
 .section2 
 {
+   
    margin-top: 30px;
+}
+.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
+{
+   height: 180px;
+}
+.etoilebleue 
+{
+   margin-top: 10px;
+}
+.trois1
+{
+   margin-top: 275px;
 }
 }
 @media screen and (max-width:1000px) and (min-width:877px)  
@@ -1774,14 +1826,8 @@ div.boxinfo
 }
 @media screen and (max-width:375px)
 {
-body 
-{
-   height: 3700px;
-}
-.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6 
-{
-   height: 170px;
-}
+
+
 .photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6
 {
    margin-left: 15px;
@@ -1822,14 +1868,19 @@ i.ifas.fa-info
 }
 .section2 
 {
-   height: 1550px;
+   height: 1500px;
    margin-top: 70px;
 }
 .section4 
 {
    width: 100%;
-   margin-top: 160px;
+   margin-top: 250px;
   
+}
+.afficherplus
+{
+   margin-top: 125px;
+   font-size: 15px;
 }
 .section4 h5
 {
@@ -1844,7 +1895,7 @@ i.ifas.fa-info
 }
 #marsheber 
 {
-   margin-top: -40px;
+   margin-top: -70px;
 }
 #marsheber .police,.police2
 {
@@ -1861,13 +1912,11 @@ i.ifas.fa-info
    padding-left: 10px;
 }
 
-.trois2,.trois1
-{
-   height: 550px;
-}
+.troistrois1
+{height: 800px;}
 .trois1 
 {
-   margin-top: 120px;
+   margin-top: 275px;
 }
 footer 
 {
@@ -1928,5 +1977,61 @@ footer
 #marsactiv .police,.police2 
 {
    font-size: 12px;
+}
+}
+@media screen and (max-width:1000px) and (min-width:977px)
+{
+.fam4 
+{
+   margin: 0;
+} 
+.boxinfo
+{
+   padding-top: 0%;
+} 
+.section2 
+{
+   margin-top: 50px;
+}
+}
+@media screen and (max-width:876px) and (min-width:564px)
+{
+.imgreservia 
+{
+   padding-left: 8%;
+}
+   .souligne1 
+   {
+      
+      padding-left: 7%;
+   }
+   
+.nav2 
+{
+   width: 95%;
+} 
+.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
+{
+   margin-left: 0px;
+} 
+.photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6  
+{
+   margin-right: 30%;
+}
+}
+@media screen and (max-width:364px)
+{
+.p2
+{
+   margin-top: 50px;
+   
+}
+header 
+{
+   height: 580px;
+}
+i.fas.fa-info 
+{
+   margin-top: 60px;
 }
 }
