@@ -164,6 +164,12 @@ form
    font-size: 22px;
    margin-right: 10px;
 }
+.ecotexte 
+{
+   position: absolute;
+   padding-top: 9px;
+   padding-left: 5px;
+}
 .fam2 
 {
    width: 140px;
@@ -204,46 +210,57 @@ span.ecotexte:hover
 }
 .fas.fa-money-bill-wave
 {
-   width: 26px;
-   height: 26px;
-   border-radius:52px/52px;
+   width: 11%;
+   height: 51%;
+   border-radius:50%;
    vertical-align: auto;
-   
+   font-size: 20px;
+   position: relative;
+}
+.fas.fa-money-bill-wave::before 
+{
+  
+   position: absolute;
+   margin-left: -13px;
+   margin-top: 2px;
 }
 
 .fas.fa-heart 
 {
-   width: 26px;
-   height: 26px;
-   border-radius:52px/52px;
-   font-size: 20px;
+   width: 11%;
+   height: 50%;
+   border-radius:50%;
+   font-size: 22px;
    vertical-align: auto;
 }
 
 .fas.fa-child 
 {
-   width: 32px;
-   height: 32px;
-   border-radius:64px/64px;
-   font-size: 20px;
+   width: 20%;
+   height: 65%;
+   border-radius:50%;
+   font-size: 26px;
    text-align: center;
-   vertical-align: 20%;
+   
 }
 
 
 .fas.fa-dog 
 {
-   width: 18px;
-   height: 18px;
-   border-radius:36px/36px;
+   width: 5%;
+   height: 31%;
+   border-radius:50%;
    font-size: 20px;
-   vertical-align: -25%;
    
+   position: relative;
    
 }
 .fas.fa-dog::before 
 {
-   padding:0px 0px 6px 4px;
+   margin-left: -13px;
+   margin-top: -5px;
+   position: absolute;
+   font-size: 22px;
 }
 
 
@@ -1811,7 +1828,7 @@ div.boxinfo
 .section4 
 {
    
-   margin-top: 190px;
+   margin-top: 250px;
 }
 .section4 h5
 {
@@ -2072,21 +2089,21 @@ footer
 }
 span.apropos
 {
-   color: teal;
    
-   width: 70%;
+   margin-left: 180px;
+   padding-right: 130px;
 }
 span.noshebergements
 {
-   color: teal;
    
-   width: 67%;
+   
+   padding-right: 130px;
 }
 span.assistance
 {
-   color: teal;
    
-   width: 57%;
+   
+   padding-right: 130px;
 }
 }
 @media screen and (max-width:364px)
