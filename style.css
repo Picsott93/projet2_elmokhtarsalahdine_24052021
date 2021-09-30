@@ -12,15 +12,15 @@ div a
 
 header
 {  width: 98%;
-   height: 400px;
+   height: 300px;
    margin-left: 2%;
    padding-top: 3%;
 }
 
 header h5
 {
-   margin-bottom: 1%;
-   font-size: 24px;
+   
+   font-size: 22px;
 }
 img.imgreservia
 {   
@@ -68,15 +68,15 @@ nav
 {
    text-decoration: none;
    color:#0065FC;
-   opacity: .8;
+   
    
 }
 .souligne2
 {
    text-decoration: none;
    color: black;
-   font-weight: bold;
-   opacity: .8;
+   
+
 }
 .souligne3
 {
@@ -87,7 +87,7 @@ nav
 
 form
 {
-   height: 100px;
+   height: 60px;
    display: flex;
    margin-top: 10px;
    margin-bottom: 10px;
@@ -118,14 +118,13 @@ form
 }
 .recherchebleu
 {   
-    font-size: 1.2em;
+    font-size: 1.05em;
     font-weight: bold;
     color: white;
     background-color: #0065FC;
     width: 120px;
-    height:50px;
-    padding-left: 9px;
-    align-content: center;
+    height:28px;
+    padding: 14px 11px 6px 26px;
     border-radius: 0px 15px 15px 0px;
     
 }
@@ -146,6 +145,7 @@ form
    font-size: 1.3em;
    margin-top: 11px;
    margin-right: 11px;
+   opacity: .8;
 }
 .ulfiltres /* liste des filtres avec icone (child ,heart ...*/
 {    
@@ -165,14 +165,20 @@ form
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
-   font-size: 22px;
+   font-size: 18px;
    margin-right: 10px;
+   opacity: .9;
 }
 .ecotexte 
 {
    position: absolute;
    padding-top: 9px;
-   padding-left: 5px;
+   padding-left: 1%;
+}
+.fam2 .ecotexte
+{
+   position: absolute;
+   padding-left: 6px;
 }
 .fam2 
 {
@@ -181,9 +187,10 @@ form
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
-   font-size: 22px;
+   font-size: 18px;
    margin-right: 10px;
    word-wrap: break-word;
+   opacity: .9;
 }
 .fam3
 { 
@@ -192,8 +199,9 @@ form
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
-   font-size: 22px;
+   font-size: 18px;
    margin-right: 10px;
+   opacity: .9;
 }
 .fam4 
 {
@@ -202,7 +210,8 @@ form
    border: 2px #f2f2f2 solid;
    border-radius: 35px/35px;
    font-weight: bold;
-   font-size:22px;
+   font-size:18px;
+   opacity: .9;
 }
 span.ecotexte 
 {
@@ -292,16 +301,20 @@ i.fas.fa-info /*image de l'icone info ronde  */
    font-size: 8px;
    color:#0065FC;
    background-color :white;
-   width: 18px;
-   height: 18px;
+   width: 22px;
+   height: 22px;
    border: 1px silver solid;
    border-radius:50%;
    text-align: center;
-   margin-top: 18px;
+   margin-top: 16px;
+   position: relative;
 }
 i.fas.fa-info::before
 {
-   font-size: 14px;
+   position: absolute;
+   font-size: 11px;
+   padding-top: 5px;
+   margin-left: -1.5px;
 }
 div.boxinfo /*comprend icone info et texte*/
 {
@@ -314,20 +327,22 @@ div.boxinfo /*comprend icone info et texte*/
 .section2
 {
    display: flex;
-   width: 97%;
+   width: 96%;
    margin-top: 5%;
+   
+   
    
 }
 .section4
 {
-   width: 97%;
-  
+   width: 98%;
+   
 }
 .section4 h5
 {
    padding-left: 2.6%;
-   opacity: .6;
-   font-size: 24px;
+   opacity: .8;
+   font-size: 22px;
 }
 h5 
 {
@@ -346,7 +361,7 @@ h5
 {
    margin-top: 2%;
    margin-left: 3%;
-   font-size: 24px;
+   font-size: 22px;
    height: 19px;
 }
 
@@ -417,11 +432,12 @@ h5
    color: black;
    display: flex;
    align-items: center;
-   height: 60px;
+   height: 75px;
 }
 .bourse h5
 {
-   font-size: 24px;
+   font-size: 22px;
+   margin-bottom: 55px;
 }
 .bourse i
 {
@@ -433,6 +449,7 @@ h5
 {
    font-size: 14px;
    font-weight: bold;
+   opacity: .7;
 }
 #marsactiv
 { 
@@ -441,14 +458,13 @@ h5
    width: 97%;
    height: 400px;
    border-radius: 12px/20px;
-   margin-left: 30px;
+   
 }
    /*.titreactiv  margin-bottom: -20px;
    margin-left:300px ;}*/ 
 .police
 {
    font-size:14px;
-   font-weight: bold;
    justify-content: center;
    margin-left: 10px;
    
@@ -461,20 +477,17 @@ h5
    margin-left: 10px;  
    display: flex;
    padding-bottom: 3%;
-   opacity: .5;
+   
    padding-top: 5px;
    flex-wrap: wrap;
    
 }
-.E /*25 euros hebergements */ 
-{
-   margin-left: 4px;
-}
+
 .afficherplus
 {
-   font-size: 12px;
+   font-size: 16px;
    padding-left: 3%;
-  
+   opacity: .7;
    color: black;
   
 }
@@ -521,7 +534,7 @@ h5
    color: black;
    background-color: white;
    border-radius: 10px/10px;
-   width:20%;
+   width:25%;
    height: 96%;
    box-shadow: 1px 1px 6px silver ;
    
@@ -588,7 +601,7 @@ h5
    color: black;
    background-color: white;
    border-radius: 10px/10px;
-   width:20%;
+   width:25%;
    height: 96%;
    box-shadow: 1px 1px 6px silver ;
    
@@ -758,7 +771,7 @@ span.apropos
 }
 span.apropos strong 
 {
-   font-size: 22px;
+   font-size: 20px;
    font-weight: bold;
 }
 span.noshebergements
@@ -769,7 +782,7 @@ span.noshebergements
 }
 span.noshebergements strong 
 {
-   font-size: 22px;
+   font-size: 20px;
    font-weight: bold;
    
 }
@@ -781,14 +794,12 @@ span.assistance
 }
 span.assistance strong 
 {
-   font-size: 22px;
+   font-size: 20px;
    font-weight: bold;
 }
 .fonctionsite,.generalvente,.donnees,.contacter,.centraide,.qualite,.soumettre 
 {
    margin-top: 5px;
-   font-weight: bold;
-   opacity: .5;
 }
  
 @media screen and (max-width:463px) /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
@@ -889,6 +900,7 @@ form
 }
 #listefiltre 
 {
+   width: 96%;
    height: 240px;
    display: flex;
    flex-direction: column;
@@ -1003,7 +1015,7 @@ header
 }
 HEADER h5 
 {
-   font-size: 24px;
+   font-size: 22px;
    width: 90%;
    padding-left: 20px;
    margin-bottom: 10px;
@@ -1697,9 +1709,9 @@ footer
 }
 span.apropos 
 {
-   width: 40%;
+   
    font-size: 12px;
-  
+   margin-left: -55%;
    
    
 }
@@ -1707,13 +1719,13 @@ span.apropos
 span.noshebergements 
 {
    font-size: 12px;
-   width: 40%;
+   margin-left: -43%;
   
 }
 span.assistance 
 {
    font-size: 12px;
-   width: 100%;
+   margin-left: -40%;
 
 }
 
@@ -1727,7 +1739,8 @@ span.assistance
 {
    
    padding-left: 50%;
-}}
+}
+}
 @media screen and (max-width:876px)
 {
 .arecherche 
@@ -1810,7 +1823,14 @@ a.souligne1
    
    margin-right: 25%;
    
-}} 
+}}
+@media screen and (max-width:463px) and (min-width:376px)
+{
+.section2
+{
+   height: 1520px;
+}
+}   
 @media screen and (max-width:463px) and (min-width:375px)  
 {
 #marsactiv 
@@ -2139,6 +2159,13 @@ i.fas.fa-info
 {
    height: 170px;
 }
+.ecotexte 
+{
+   font-size: 16px;
+   position: absolute;
+   padding-top: 9px;
+   padding-left: 5%;
+}
 .trois1 
 {
    margin-top: 245px;
@@ -2150,6 +2177,7 @@ i.fas.fa-info
   
    margin-top: 10px;
 }
+
 }
 @media screen and (max-width:468px)
 {
@@ -2196,19 +2224,16 @@ i.fas.fa-child::before
 }
 @media screen and (min-width:877px)
 {
-span.recherchebleu
-{
-   background-color: violet;
-   color: thistle;
-}
-span.recherchebleu::before
-{
-   margin-top: 20px;
-}
+
 .section2
 {
    margin-top: 12%;
-   margin-left: 15px;
+   
+}
+.section4
+{
+   
+   align-items: center;
 }
 form 
 {
@@ -2220,5 +2245,205 @@ form
 h5 
 {
    padding-left: 2.6%;
+}
+}
+@media screen and (max-width:1155px) and (min-width:877px)
+{
+header
+{
+   height: 400px;
+}
+}
+@media screen and (max-width:1155px) and (min-width:977px)
+{
+header
+{
+   height: 350px;
+}
+.section2
+{
+   margin-top: 90px;
+}
+}
+@media screen and (max-width:375px) and (min-width:365px)
+{
+.p2
+{
+   margin-top: -20px;
+}
+i.fas.fa-info 
+{
+   margin-top: -20px;
+}
+.section2
+{
+   padding-top: 100px;
+}
+}  
+@media screen and (max-width:364px) and (min-width:364px)
+{
+.p2
+{
+   margin-top: -15px;
+
+}
+i.fas.fa-info 
+{
+   margin-top: -15px;
+}
+.section2
+{
+   margin-top: 10px;
+}
+}
+@media screen and (max-width:876px) and (min-width:464px)
+{
+   footer 
+   {
+      width: 100%;
+      height: 350px;
+      align-items: center;
+      margin-top: 815px;
+      margin-left: 0px;
+      margin-right: 0px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+   }
+   span.apropos 
+   {
+      position: absolute;
+      font-size: 12px;
+      padding-bottom: 230px;
+     
+      
+      
+   }
+   
+   span.noshebergements 
+   {
+      font-size: 12px;
+      position: absolute;
+      padding-top: 20px;
+   }
+   span.assistance 
+   {
+      font-size: 12px;
+      position: absolute;
+      padding-top: 230px;
+      padding-right: 10px;
+   } 
+}
+@media screen and (max-width:463px)
+{
+.fam1,.fam2,.fam3,.fam4
+{
+   position: relative;
+   font-size: 18px;
+}
+#listefiltre 
+{
+   width: 90%;
+}
+.fam1 .ecotexte
+{
+   position: absolute;
+   margin-left: 10px;
+}
+.fam3 .ecotexte
+{
+   position: absolute;
+   margin-left: 10px;
+}
+.fam4 .ecotexte
+{
+   position: absolute;
+   margin-left: 18px;
+}
+}
+@media screen and (max-width:402px)
+{
+.section2
+{
+   margin-top: 80px;
+}
+.p2
+{
+   margin-top: 65px;
+}
+i.fas.fa-info
+{
+   margin-top: 76px;
+}
+.fam3
+{
+   margin-top: 10px;
+}
+.ulfiltres
+{
+   width: 95%;
+}
+}
+@media screen and (max-width:408px)
+{
+.ecotexte
+{
+   font-size: 15px;
+   padding-left: 0px;
+}
+.fam1,.fam3 
+{
+   width: 150px;
+   height: 43px;
+   
+}
+#listefiltre
+{
+   width: 99%;
+}
+.fam4
+{
+   width: 211px;
+   height: 40px;
+}
+.fam2
+{
+   width: 130px;
+   height: 43px;
+}
+.ulfiltres
+{
+   width: 95%;
+}
+.nav2ligne1
+{
+   width: 90%;
+}
+
+}
+@media screen and (max-width:338px)
+{
+.nav2ligne1
+{
+   width: 55%;
+}
+}
+@media screen and (min-width:877px)
+{
+.section2
+{
+   margin: auto;
+   margin-top: 80px;
+}
+.section4
+{
+   margin-left: 2.5%;
+}
+}
+@media screen and (min-width:1156px)
+{
+.section2 
+{
+   margin-top: 120px;
 }
 }
