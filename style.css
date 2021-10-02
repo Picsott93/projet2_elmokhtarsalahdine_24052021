@@ -234,7 +234,7 @@ span.ecotexte:hover
    width: 11%;
    height: 51%;
    border-radius:50%;
-   vertical-align: auto;
+   
    font-size: 20px;
    position: relative;
 }
@@ -252,7 +252,7 @@ span.ecotexte:hover
    height: 50%;
    border-radius:50%;
    font-size: 22px;
-   vertical-align: auto;
+
 }
 
 .fas.fa-child 
@@ -522,10 +522,7 @@ h5
    text-align: start;
    margin-bottom: 5px;
 }
-.photoh1 
-{
-   
-}
+
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
 {
    width: 98%;
@@ -813,936 +810,937 @@ span.assistance strong
 }
  
 @media screen and (max-width:463px) /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
- 
-{   /* .       ouverture mediaS            */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');   
-body 
-{
-   font-family:"raleway";
-   
-}
+{   
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+   body 
+   {
+      font-family:"raleway";
+      
+   }
 
 
-nav
-{
-   width: 100%;
-   height: 60px;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   display: none;
-}
-.nav2 
-{
-   width: 100%;
-   height: 100px;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
-   opacity: 1;
-}
-.nav2 img 
-{
-   width: 90px;
-   height: 40px;
-   margin-right: 40%;
-   margin-top: 10px;
-}
-.nav2ligne1 
-{
-   width: 100%;
-   height: 50px;
-   display: flex;
-   
-}
-.nav2ligne2 
-{
-   width: 100%;
-   height: 90px;
-   padding-top: 20px;
-   display: flex;
-   justify-content: space-around;
-}
+   nav
+   {
+      width: 100%;
+      height: 60px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      display: none;
+   }
+   .nav2 
+   {
+      width: 100%;
+      height: 100px;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      opacity: 1;
+   }
+   .nav2 img 
+   {
+      width: 90px;
+      height: 40px;
+      margin-right: 40%;
+      margin-top: 10px;
+   }
+   .nav2ligne1 
+   {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      
+   }
+   .nav2ligne2 
+   {
+      width: 100%;
+      height: 90px;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-around;
+   }
 
 
-#ici
-{
-   width: 50px;
-   height: 40px;
-   font-size: 12px;
-   border-radius: 12px 0px 0px 12px;
-}
-.recherchebleu 
-{
-   display: none;
-}
-.arecherche 
-{
-   width: 40px;
-   height: 40px;
-   margin-top: 0px;
-   background-color: #0065FC;
-   border-radius: 8px 8px 8px 8px;
-   opacity: 0.8;
-}
-#loupe 
-{
-   color: white;
-   padding-left: 10px;
-   padding-top: 10px;
-   font-size: 12px;
-} 
-#recherche 
-{
-   width: 72%;
-   height: 40px;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: bold;
-   opacity: .9;
-}
-form
-{
-   height: 40px;
-}
-.Filtres 
-{
-   margin-right: 82%;
-   margin-bottom: 20px;
-}
-#listefiltre 
-{
-   width: 96%;
-   height: 240px;
-   display: flex;
-   flex-direction: column;
-}
-.ulfiltres /* liste des filtres avec icone (child ,heart ...*/
-{    
-   height: 50px;
-   width: 100%;
-   list-style: none;
-   display: flex;
-   flex-wrap: wrap;
-   padding-left: 0%;
+   #ici
+   {
+      width: 50px;
+      height: 40px;
+      font-size: 12px;
+      border-radius: 12px 0px 0px 12px;
+   }
+   .recherchebleu 
+   {
+      display: none;
+   }
+   .arecherche 
+   {
+      width: 40px;
+      height: 40px;
+      margin-top: 0px;
+      background-color: #0065FC;
+      border-radius: 8px 8px 8px 8px;
+      opacity: 0.8;
+   }
+   #loupe 
+   {
+      color: white;
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 12px;
+   } 
+   #recherche 
+   {
+      width: 72%;
+      height: 40px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: bold;
+      opacity: .9;
+   }
+   form
+   {
+      height: 40px;
+   }
+   .Filtres 
+   {
+      margin-right: 82%;
+      margin-bottom: 20px;
+   }
+   #listefiltre 
+   {
+      width: 96%;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+   }
+   .ulfiltres /* liste des filtres avec icone (child ,heart ...*/
+   {    
+      height: 50px;
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0%;
 
-}
+   }
 
-.fam1
-{ 
-   width: 185px;
-   margin-bottom: 10px;
-   border: 2px #f2f2f2 solid;
-   border-radius: 35px/35px;
-   font-weight: bold;
-   font-size: 22px;
-   margin-right: 10px;
-}
-.fam2 
-{
-   width: 140px;
+   .fam1
+   { 
+      width: 185px;
+      margin-bottom: 10px;
+      border: 2px #f2f2f2 solid;
+      border-radius: 35px/35px;
+      font-weight: bold;
+      font-size: 22px;
+      margin-right: 10px;
+   }
+   .fam2 
+   {
+      width: 140px;
+      
+      border: 2px #f2f2f2 solid;
+      border-radius: 35px/35px;
+      font-weight: bold;
+      font-size: 22px;
+      margin-right: 10px;
+      
+   }
+   .fam3
+   { 
+      width: 180px;
+      
+      border: 2px #f2f2f2 solid;
+      border-radius: 35px/35px;
+      font-weight: bold;
+      font-size: 22px;
+      margin-right: 10px;
+      
+   }
+   .fam4 
+   {
+      width: 73%;
+      height: 90%;
+      border: 2px #f2f2f2 solid;
+      border-radius: 35px/35px;
+      font-weight: bold;
+      font-size:22px;
+      margin-top: 10px;
+   }
+   .ecotexte:hover
+   {
+      color: #0065FC;
+   }
+   .fas.fa-money-bill-wave
+   {
+      width: 25px;
+      height: 25px;
+      border-radius:50%;
    
-   border: 2px #f2f2f2 solid;
-   border-radius: 35px/35px;
-   font-weight: bold;
-   font-size: 22px;
-   margin-right: 10px;
-   
-}
-.fam3
-{ 
-   width: 180px;
-   
-   border: 2px #f2f2f2 solid;
-   border-radius: 35px/35px;
-   font-weight: bold;
-   font-size: 22px;
-   margin-right: 10px;
-   
-}
-.fam4 
-{
-   width: 73%;
-   height: 90%;
-   border: 2px #f2f2f2 solid;
-   border-radius: 35px/35px;
-   font-weight: bold;
-   font-size:22px;
-   margin-top: 10px;
-}
-.ecotexte:hover
-{
-   color: #0065FC;
-}
-.fas.fa-money-bill-wave
-{
-   width: 25px;
-   height: 25px;
-   border-radius:50%;
-   vertical-align: auto;
-   
-}
+      
+   }
 
-.fas.fa-heart 
-{
-   width: 25px;
-   height: 25px;
-   border-radius:50%;
-   font-size: 20px;
-   vertical-align: auto;
-}
-
-.fas.fa-child 
-{
-   width: 30px;
-   height: 30px;
-   border-radius:50%;
-   font-size: 20px;
-   text-align: center;
-   vertical-align: 20%;
-}
-
-
-.fas.fa-dog 
-{
-   width: 18px;
-   height: 18px;
-   border-radius:50%;
-   font-size: 20px;
-   vertical-align: -25%;
+   .fas.fa-heart 
+   {
+      width: 25px;
+      height: 25px;
+      border-radius:50%;
+      font-size: 20px;
    
-   
-}
-.fas.fa-dog::before 
-{
-   padding:0px 0px 6px 4px;
-}
+   }
 
-header
-{
-   margin-left: 0px;
-   width: 100%;
-   height: 520px;
-   
-}
-HEADER h5 
-{
-   font-size: 22px;
-   width: 90%;
-   padding-left: 20px;
-   margin-bottom: 10px;
-   margin-top: 20px;
-}
-header .p1 
-{  width: 90%;
-   font-size: 14px;
-   opacity: 0.6;
-   margin-bottom: 10px;
-   margin-left: 20px;
-}
-.section2
-{
-   flex-direction: column-reverse;
-   align-content: space-around;
-   width: 100%;
-   height: 1550px;
-   padding-top: 30px;
-   
-}
-#marsheber
-{
-   width: 100%;
-   height: 1000px;
-   margin-top: 5%;
-   background-color: white;
-}
-#marsheber h5
-{
-   font-size: 24px;
-   margin-bottom: 30px;
-}
-
-.afficherplus 
-{
-   width: 50%;
-   margin-top: 100px;
-   padding-left: 30px;
-   font-size: 12px;
-}
-.photoh1,.photoh2,.photoh3
-{
-   box-shadow: 1px 1px 6px silver ;
-   width: 90%;
-   height: 145px;
-   margin-top: 10px;
-   margin-left: 12px;
-}
-.photoh4,.photoh5,.photoh6 
-{
-   box-shadow: 1px 1px 6px silver ;
-   width: 90%;
-   height: 145px;
-   margin-bottom: 15px;
-   margin-left: 12px;
-}
-.photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
-
-{
-   object-fit: cover;
-}
+   .fas.fa-child 
+   {
+      width: 30px;
+      height: 30px;
+      border-radius:50%;
+      font-size: 20px;
+      text-align: center;
+      
+   }
 
 
+   .fas.fa-dog 
+   {
+      width: 18px;
+      height: 18px;
+      border-radius:50%;
+      font-size: 20px;
+   
+      
+      
+   }
+   .fas.fa-dog::before 
+   {
+      padding:0px 0px 6px 4px;
+   }
 
-.photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
-{
-   width: 98%;
-   height: 60%;
-   margin-left: .5%;
-   margin-top: .5%;
-}
+   header
+   {
+      margin-left: 0px;
+      width: 100%;
+      height: 520px;
+      
+   }
+   HEADER h5 
+   {
+      font-size: 22px;
+      width: 90%;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+   }
+   header .p1 
+   {  width: 90%;
+      font-size: 14px;
+      opacity: 0.6;
+      margin-bottom: 10px;
+      margin-left: 20px;
+   }
+   .section2
+   {
+      flex-direction: column-reverse;
+      align-content: space-around;
+      width: 100%;
+      height: 1550px;
+      padding-top: 30px;
+      
+   }
+   #marsheber
+   {
+      width: 100%;
+      height: 1000px;
+      margin-top: 5%;
+      background-color: white;
+   }
+   #marsheber h5
+   {
+      font-size: 24px;
+      margin-bottom: 30px;
+   }
 
+   .afficherplus 
+   {
+      width: 50%;
+      margin-top: 100px;
+      padding-left: 30px;
+      font-size: 12px;
+   }
+   .photoh1,.photoh2,.photoh3
+   {
+      box-shadow: 1px 1px 6px silver ;
+      width: 90%;
+      height: 145px;
+      margin-top: 10px;
+      margin-left: 12px;
+   }
+   .photoh4,.photoh5,.photoh6 
+   {
+      box-shadow: 1px 1px 6px silver ;
+      width: 90%;
+      height: 145px;
+      margin-bottom: 15px;
+      margin-left: 12px;
+   }
+   .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 
-.troistrois1
-{ 
-   width: 100%;
-   height: 870px;
-   margin-top: 100px;
-   margin-left: 5px;
-   
-   
-   
-}
-.trois 
-{
-   flex-direction: column;
-   height: 300px;
-   
-}
-.trois1 
-{
-   flex-direction: column;
-   padding-top: 20px;
-   height: 300px;
-   margin-top: 170px;
-   
-   
-}
-
-#marspopul
-{
-   width: 100%;
-   height: 500px;
-   margin-top: 200px;
-   border-radius: 0;
-}
-.popultexte .etoilebleue
-{
-   
-   margin-top: -20px;
-}
-div.bourse 
-{
-   width: 100%;
-   height: 45px;
-   display: flex;
-   justify-content: space-between;
-   font-size: 18px;
-   margin-top: 10px;
-   
-   
-}
-.bourse h5
-{
-   width: 100%;
-   font-size: 24px;
-   
-}
-.fas.fa-chart-line
-{
-    
-    width: 40px;
-    
-}
-.photopop1
-{
-   width: 90%;
-   box-shadow: 1px 1px 6px silver ;
-   
-  
-}
-.photopop1p 
-{
-   width: 90%;
-   margin-bottom: 2%;
-}
-.photopop2
-{
-   width: 90%;
-   box-shadow: 1px 1px 6px silver ;
-
-   
-}
-.photopop2p 
-{
-   width: 90%;
-   
-}
-.photopop3
-{
-   width: 90%;
-   box-shadow: 1px 1px 6px silver ;
-   
-}
-.photopop3p 
-{
-   width: 90%;
-}
-div.boxinfo 
-{
-   width:95%;
-   margin-top: 47%;
-   margin-left: 20px;
-}
-.section4 
-{
-   flex-direction: column;
-   width: 100%;
-   height: 1030px;
-   margin-top: 70px;
-}
-#marsactiv                                        
-{
-   width: 100%;
-   height:770px; 
-   flex-direction: column;
-   justify-content: flex-start;
-   padding-left: 20px;
-   padding-top: 10px;
-   margin-left: 0px;
-}
-.section4 h5
-{
-   font-size: 24px;
-   margin-top: 30px;
-   margin-left: 17px;
-}
-.photoa1,.photoa4
-{
-   width: 90%;
-   height: 145px;
-   margin-bottom: 15px;
-   margin-left: 3.5px;
-}
-.photoa2,.photoa3 
-{
-   width: 90%;
-   height: 145Px;
-   margin-bottom: 5px;
-   margin-left: 3.5px;
-   
-}
-.photoa5,.photoa6
-{
-   width: 90%;
-   height: 145Px;
-   
-   margin-left: 3.5px;
-}
-.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
-{
-   width: 98.3%;
-   height: 65%;
-   margin-right: 1px;
-}
-.photoa3
-{
-   margin-top: 10px;
-}
-.photoa6
-{
-   margin-top: 15px;
-}
-.photoa4
-{
-   margin-top: 10px;
-}
+   {
+      object-fit: cover;
+   }
 
 
-.pomfrioul 
-{
-   width: 100%;
-   height: 300px;
-   margin-bottom: 10px;
+
+   .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
+   {
+      width: 98%;
+      height: 60%;
+      margin-left: .5%;
+      margin-top: .5%;
+   }
+
+
+   .troistrois1
+   { 
+      width: 100%;
+      height: 870px;
+      margin-top: 100px;
+      margin-left: 5px;
+      
+      
+      
+   }
+   .trois 
+   {
+      flex-direction: column;
+      height: 300px;
+      
+   }
+   .trois1 
+   {
+      flex-direction: column;
+      padding-top: 20px;
+      height: 300px;
+      margin-top: 170px;
+      
+      
+   }
+
+   #marspopul
+   {
+      width: 100%;
+      height: 500px;
+      margin-top: 200px;
+      border-radius: 0;
+   }
+   .popultexte .etoilebleue
+   {
+      
+      margin-top: -20px;
+   }
+   div.bourse 
+   {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      margin-top: 10px;
+      
+      
+   }
+   .bourse h5
+   {
+      width: 100%;
+      font-size: 24px;
+      
+   }
+   .fas.fa-chart-line
+   {
+      
+      width: 40px;
+      
+   }
+   .photopop1
+   {
+      width: 90%;
+      box-shadow: 1px 1px 6px silver ;
+      
    
+   }
+   .photopop1p 
+   {
+      width: 90%;
+      margin-bottom: 2%;
+   }
+   .photopop2
+   {
+      width: 90%;
+      box-shadow: 1px 1px 6px silver ;
+
+      
+   }
+   .photopop2p 
+   {
+      width: 90%;
+      
+   }
+   .photopop3
+   {
+      width: 90%;
+      box-shadow: 1px 1px 6px silver ;
+      
+   }
+   .photopop3p 
+   {
+      width: 90%;
+   }
+   div.boxinfo 
+   {
+      width:95%;
+      margin-top: 47%;
+      margin-left: 20px;
+   }
+   .section4 
+   {
+      flex-direction: column;
+      width: 100%;
+      height: 1030px;
+      margin-top: 70px;
+   }
+   #marsactiv                                        
+   {
+      width: 100%;
+      height:770px; 
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-left: 20px;
+      padding-top: 10px;
+      margin-left: 0px;
+   }
+   .section4 h5
+   {
+      font-size: 24px;
+      margin-top: 30px;
+      margin-left: 17px;
+   }
+   .photoa1,.photoa4
+   {
+      width: 90%;
+      height: 145px;
+      margin-bottom: 15px;
+      margin-left: 3.5px;
+   }
+   .photoa2,.photoa3 
+   {
+      width: 90%;
+      height: 145Px;
+      margin-bottom: 5px;
+      margin-left: 3.5px;
+      
+   }
+   .photoa5,.photoa6
+   {
+      width: 90%;
+      height: 145Px;
+      
+      margin-left: 3.5px;
+   }
+   .photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
+   {
+      width: 98.3%;
+      height: 65%;
+      margin-right: 1px;
+   }
+   .photoa3
+   {
+      margin-top: 10px;
+   }
+   .photoa6
+   {
+      margin-top: 15px;
+   }
+   .photoa4
+   {
+      margin-top: 10px;
+   }
+
+
+   .pomfrioul 
+   {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+      
+   }
+   .gardechamps 
+   {
+      width: 100%;
+      height: 210px;
+      margin-bottom: 10px;
+   }
+   footer 
+   {
+      width: 100%;
+      height: 310px;
+      display: block;
+      margin-top: 20px;
+      
+   }
+   .apropos 
+   {
+      font-size: 12px;
+      margin-left: 30px;
+      margin-top:10px;
+      width: 70%;
+   }
+   .apropos strong  
+   {
+      
+      margin-top: 25px;
+   }
+   .noshebergements 
+   {
+      font-size: 12px;
+      margin-left: 30px;
+      margin-top: 20px;
+   }
+   .assistance 
+   {
+      font-size: 12px;
+      margin-left: 30px;
+      padding-top: 20px;
+   }
 }
-.gardechamps 
-{
-   width: 100%;
-   height: 210px;
-   margin-bottom: 10px;
-}
-footer 
-{
-   width: 100%;
-   height: 310px;
-   display: block;
-   margin-top: 20px;
-   
-}
-.apropos 
-{
-   font-size: 12px;
-   margin-left: 30px;
-   margin-top:10px;
-   width: 70%;
-}
-.apropos strong  
-{
-   
-   margin-top: 25px;
-}
-.noshebergements 
-{
-   font-size: 12px;
-   margin-left: 30px;
-   margin-top: 20px;
-}
-.assistance 
-{
-   font-size: 12px;
-   margin-left: 30px;
-   margin-top: 20px;
-}}
 @media screen and (max-width:876px) and (min-width:464px)/*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 {
    body 
-{
-   font-family:"raleway";
-  
-}
-a.souligne3 
-{
-   margin-left: 0%;
-   padding-left: 25%;
+   {
+      font-family:"raleway";
+   
+   }
+   a.souligne3 
+   {
+      margin-left: 0%;
+      padding-left: 25%;
 
-}
-a.souligne1
-{
-   
-   margin-right: 45%;
-   
-}
-
-
-nav
-{
-   width: 100%;
-   height: 60px;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   display: none;
-}
-.nav2 
-{
-   width: 95%;
-   height: 100px;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
-   
-   margin-left: 20px;
-   opacity: 1;
-}
-.nav2 img 
-{
-   width: 90px;
-   height: 40px;
-   margin-right: 40%;
-   margin-left: -15px;
-   margin-top: 10px;
-}
-.nav2ligne1 
-{
-   width: 100%;
-   height: 50px;
-   display: flex;
-   
-}
-.nav2ligne2 
-{
-   height: 90px;
-   padding-top: 20px;
-   display: flex;
-   justify-content: space-around;
-}
-
-#ici
-{
-   width: 50px;
-   height: 40px;
-   font-size: 12px;
-   border-radius: 12px 0px 0px 12px;
-}
-.recherchebleu 
-{
-   display: none;
-}
-.arecherche 
-{
-   width: 40px;
-   height: 40px;
-   margin-top: 0px;
-   background-color: #0065FC;
-   border-radius: 8px 8px 8px 8px;
-   opacity: 0.8;
-}
-#loupe 
-{
-   color: white;
-   padding-left: 10px;
-   padding-top: 10px;
-   font-size: 12px;
-} 
-#recherche 
-{
-   width: 72%;
-   height: 40px;
-   font-size: 18px;
-   
-   font-weight: bold;
-   opacity: .9;
-}
-form
-{
-   height: 40px;
-}
-.ulfiltres 
-{
-   width: 80%;
-}
-.Filtres
-{
-   margin-right: 300%;
-}
-.fam4 
-{
-   margin-top: 15px;
-}
-.fam3
-{
-   margin-top: 15px;
-}
-
-header
-{
-   margin-left: 0px;
-   width: 100%;
-   height: 520px;
-   
-}
-HEADER h5 
-{
-   font-size: 24px;
-   width: 90%;
-   padding-left: 20px;
-   margin-bottom: 10px;
-   margin-top: 20px;
-}
-header .p1 
-{  width: 90%;
-   font-size: 14px;
-   opacity: 0.6;
-   margin-bottom: 10px;
-   margin-left: 20px;
-}
-.section2
-{
-   flex-direction: column-reverse;
-   width: 100%;
-   margin-left: 0%;
-}
-#marsheber
-{
-   width: 100%;
-   height: 1650px;
-   background-color: white; 
-   margin: 0%;  
-}
-#marsheber h5
-{
-   font-size: 24px;
-   padding-bottom: 210px;
-   
-   
-}
-
-.afficherplus 
-{
-   width: 50%;
-   margin-top: 100px;
-   padding-left: 30px;
-   font-size: 12px;
-}
-.photoh1,.photoh2,.photoh3
-{
-   box-shadow: 1px 1px 6px silver ;
-   width: 90%;
-   height: 250px;
-   margin-top: 10px;
-   margin-left: 20px;
-}
-.photoh4,.photoh5,.photoh6 
-{
-   box-shadow: 1px 1px 6px silver ;
-   width: 90%;
-   height: 250px;
-   margin-bottom: 15px;
-   margin-left: 20px;
-}
-.photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
-
-{
-   object-fit: cover;
-}
+   }
+   a.souligne1
+   {
+      
+      margin-right: 45%;
+      
+   }
 
 
+   nav
+   {
+      width: 100%;
+      height: 60px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      display: none;
+   }
+   .nav2 
+   {
+      width: 95%;
+      height: 100px;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      
+      margin-left: 20px;
+      opacity: 1;
+   }
+   .nav2 img 
+   {
+      width: 90px;
+      height: 40px;
+      margin-right: 40%;
+      margin-left: -15px;
+      margin-top: 10px;
+   }
+   .nav2ligne1 
+   {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      
+   }
+   .nav2ligne2 
+   {
+      height: 90px;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-around;
+   }
 
-.photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
-{
-   width: 98%;
-   height: 70%;
-   margin-left: .5%;
-   margin-top: .5%;
-}
+   #ici
+   {
+      width: 50px;
+      height: 40px;
+      font-size: 12px;
+      border-radius: 12px 0px 0px 12px;
+   }
+   .recherchebleu 
+   {
+      display: none;
+   }
+   .arecherche 
+   {
+      width: 40px;
+      height: 40px;
+      margin-top: 0px;
+      background-color: #0065FC;
+      border-radius: 8px 8px 8px 8px;
+      opacity: 0.8;
+   }
+   #loupe 
+   {
+      color: white;
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 12px;
+   } 
+   #recherche 
+   {
+      width: 72%;
+      height: 40px;
+      font-size: 18px;
+      
+      font-weight: bold;
+      opacity: .9;
+   }
+   form
+   {
+      height: 40px;
+   }
+   .ulfiltres 
+   {
+      width: 80%;
+   }
+   .Filtres
+   {
+      margin-right: 300%;
+   }
+   .fam4 
+   {
+      margin-top: 15px;
+   }
+   .fam3
+   {
+      margin-top: 15px;
+   }
 
+   header
+   {
+      margin-left: 0px;
+      width: 100%;
+      height: 520px;
+      
+   }
+   HEADER h5 
+   {
+      font-size: 24px;
+      width: 90%;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+   }
+   header .p1 
+   {  width: 90%;
+      font-size: 14px;
+      opacity: 0.6;
+      margin-bottom: 10px;
+      margin-left: 20px;
+   }
+   .section2
+   {
+      flex-direction: column-reverse;
+      width: 100%;
+      margin-left: 0%;
+   }
+   #marsheber
+   {
+      width: 100%;
+      height: 1650px;
+      background-color: white; 
+      margin: 0%;  
+   }
+   #marsheber h5
+   {
+      font-size: 24px;
+      padding-bottom: 210px;
+      
+      
+   }
 
-.troistrois1
-{ 
-   width: 100%;
-   
-   margin-top: 100px;
-  
-   
-   
-   
-}
-.trois 
-{
-   
-   flex-direction: column;
-}
-.trois1 
-{
-   flex-direction: column;
-   margin-top: 596px;
-}
+   .afficherplus 
+   {
+      width: 50%;
+      margin-top: 100px;
+      padding-left: 30px;
+      font-size: 12px;
+   }
+   .photoh1,.photoh2,.photoh3
+   {
+      box-shadow: 1px 1px 6px silver ;
+      width: 90%;
+      height: 250px;
+      margin-top: 10px;
+      margin-left: 20px;
+   }
+   .photoh4,.photoh5,.photoh6 
+   {
+      box-shadow: 1px 1px 6px silver ;
+      width: 90%;
+      height: 250px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+   }
+   .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p,.photopop1p,.photopop2p,.photopop3p,.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
 
-#marspopul
-{
-   width: 100%;
-   height: 900px;
-   
-
-   
-     
-}
-div.bourse 
-{
-   width: 100%;
-   height: 45px;
-   display: flex;
-   justify-content: space-between;
-   font-size: 18px;
-   margin-top: 10px;
-   
-   
-}
-.bourse h5
-{
-   width: 100%;
-   font-size: 24px;
-   
-}
-.fas.fa-chart-line
-{
-    
-    width: 40px;
-    
-}
-.photopop1
-{
-   width: 90%;
-   height: 28%;
-   box-shadow: 1px 1px 6px silver ;
-   
-  
-}
-.photopop1p 
-{
-   width: 90%;
-   margin-bottom: 2%;
-}
-.photopop2
-{
-   width: 90%;
-   height: 28%;
-   box-shadow: 1px 1px 6px silver ;
-
-   
-}
-.photopop2p 
-{
-   width: 90%;
-   
-}
-.photopop3
-{
-   width: 90%;
-   height: 28%;
-   box-shadow: 1px 1px 6px silver ;
-   
-}
-.photopop3p 
-{
-   width: 90%;
-}
-div.boxinfo 
-{
-   width:95%;
-   margin-top: 120px;
-   margin-left: 20px;
-  
-}
-p.p1 
-{
-   font-size: 17px;
-}
-p.p2 
-{
-   width: 60%;
-   font-size: 17px;
-}
-i.fas.fa-info 
-{
-   
-   margin-top: 20px;
-}
-.section4 
-{
-   flex-direction: column;
-   width: 100%;
-}
-.afficherplus 
-{
-   margin-top: 300px;
-}
-#marsactiv                                        
-{
-   width: 100%;
-   height:770px; 
-   flex-direction: column;
-   justify-content: flex-start;
-   margin: 0px;
-   padding-top: 10px;
- 
-}
-.section4 h5
-{
-   font-size: 24px;
-   margin-top: 30px;
-   margin-left: 17px;
-}
-.photoa1,.photoa4
-{
-   width: 90%;
-   height: 250px;
-   margin-bottom: 15px;
-   margin-left: 20px;
-}
-.photoa2,.photoa3 
-{
-   width: 90%;
-   margin-bottom: 5px;
-   margin-left: 20px;
-   height: 250px;
-   
-}
-.photoa5,.photoa6
-{
-   width: 90%;
-   height: 250px;
-   margin-left: 20px;
-   
-}
-.photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
-{
-   width: 98.3%;
-   height: 75%;
-   
-   object-fit: cover;
-}
-.photoa3
-{
-   margin-top: 10px;
-}
-.photoa6
-{
-   margin-top: 15px;
-}
-.photoa4
-{
-   margin-top: 220px;
-}
+   {
+      object-fit: cover;
+   }
 
 
-.pomfrioul 
-{
-   width: 100%;
-   height: 300px;
-   margin-bottom: 10px;
-   
-}
-.gardechamps 
-{
-   width: 100%;
-   height: 210px;
-   margin-bottom: 10px;
-   
-}
-footer 
-{
-   width: 100%;
-   height: 350px;
-   align-items: center;
-   margin-top: 815px;
-   margin-left: 0px;
-   margin-right: 0px;
-   display: flex;
-   flex-direction: column;
-}
-span.apropos 
-{
-   
-   font-size: 12px;
-   margin-left: -55%;
-   
-   
-}
 
-span.noshebergements 
-{
-   font-size: 12px;
-   margin-left: -43%;
-  
-}
-span.assistance 
-{
-   font-size: 12px;
-   margin-left: -40%;
+   .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
+   {
+      width: 98%;
+      height: 70%;
+      margin-left: .5%;
+      margin-top: .5%;
+   }
 
-}
 
-#marspopul .etoilebleue 
-{
-   margin-top: 100px;
-}}
+   .troistrois1
+   { 
+      width: 100%;
+      
+      margin-top: 100px;
+   
+      
+      
+      
+   }
+   .trois 
+   {
+      
+      flex-direction: column;
+   }
+   .trois1 
+   {
+      flex-direction: column;
+      margin-top: 596px;
+   }
+
+   #marspopul
+   {
+      width: 100%;
+      height: 900px;
+      
+
+      
+      
+   }
+   div.bourse 
+   {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      margin-top: 10px;
+      
+      
+   }
+   .bourse h5
+   {
+      width: 100%;
+      font-size: 24px;
+      
+   }
+   .fas.fa-chart-line
+   {
+      
+      width: 40px;
+      
+   }
+   .photopop1
+   {
+      width: 90%;
+      height: 28%;
+      box-shadow: 1px 1px 6px silver ;
+      
+   
+   }
+   .photopop1p 
+   {
+      width: 90%;
+      margin-bottom: 2%;
+   }
+   .photopop2
+   {
+      width: 90%;
+      height: 28%;
+      box-shadow: 1px 1px 6px silver ;
+
+      
+   }
+   .photopop2p 
+   {
+      width: 90%;
+      
+   }
+   .photopop3
+   {
+      width: 90%;
+      height: 28%;
+      box-shadow: 1px 1px 6px silver ;
+      
+   }
+   .photopop3p 
+   {
+      width: 90%;
+   }
+   div.boxinfo 
+   {
+      width:95%;
+      margin-top: 120px;
+      margin-left: 20px;
+   
+   }
+   p.p1 
+   {
+      font-size: 17px;
+   }
+   p.p2 
+   {
+      width: 60%;
+      font-size: 17px;
+   }
+   i.fas.fa-info 
+   {
+      
+      margin-top: 20px;
+   }
+   .section4 
+   {
+      flex-direction: column;
+      width: 100%;
+   }
+   .afficherplus 
+   {
+      margin-top: 300px;
+   }
+   #marsactiv                                        
+   {
+      width: 100%;
+      height:770px; 
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 0px;
+      padding-top: 10px;
+   
+   }
+   .section4 h5
+   {
+      font-size: 24px;
+      margin-top: 30px;
+      margin-left: 17px;
+   }
+   .photoa1,.photoa4
+   {
+      width: 90%;
+      height: 250px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+   }
+   .photoa2,.photoa3 
+   {
+      width: 90%;
+      margin-bottom: 5px;
+      margin-left: 20px;
+      height: 250px;
+      
+   }
+   .photoa5,.photoa6
+   {
+      width: 90%;
+      height: 250px;
+      margin-left: 20px;
+      
+   }
+   .photoa1p,.photoa2p,.photoa3p,.photoa4p,.photoa5p,.photoa6p
+   {
+      width: 98.3%;
+      height: 75%;
+      
+      object-fit: cover;
+   }
+   .photoa3
+   {
+      margin-top: 10px;
+   }
+   .photoa6
+   {
+      margin-top: 15px;
+   }
+   .photoa4
+   {
+      margin-top: 220px;
+   }
+
+
+   .pomfrioul 
+   {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+      
+   }
+   .gardechamps 
+   {
+      width: 100%;
+      height: 210px;
+      margin-bottom: 10px;
+      
+   }
+   footer 
+   {
+      width: 100%;
+      height: 350px;
+      align-items: center;
+      margin-top: 815px;
+      margin-left: 0px;
+      margin-right: 0px;
+      display: flex;
+      flex-direction: column;
+   }
+   span.apropos 
+   {
+      
+      font-size: 12px;
+      margin-left: -55%;
+      
+      
+   }
+
+   span.noshebergements 
+   {
+      font-size: 12px;
+      margin-left: -43%;
+   
+   }
+   span.assistance 
+   {
+      font-size: 12px;
+      margin-left: -40%;
+
+   }
+
+   #marspopul .etoilebleue 
+   {
+      margin-top: 100px;
+   }
+}
 @media screen and (max-width: 1200px) and (min-width:877px)
 {
    .enfant1
@@ -1754,755 +1752,732 @@ span.assistance
 }
 @media screen and (max-width:876px)
 {
-.arecherche 
-{
-   position: relative;
-}
-#loupe
-{
-   position: absolute;
-   color: white;
-   padding-left: 12px;
-   padding-top: 12px;
-   font-size: 16px;
-}
-form 
-{
-   padding-left: 15px;
-}
-.ulfiltres 
-{
-   padding-left: 15px;
-}
-.souligne1
-{
-   margin-right: 20%;
-   font-size: 20px;
-}
-.souligne2 
-{
-   font-size: 20px;
-   opacity: .9;
-}
-   
-.souligne3 
-{
-   margin-top: 20px;
-   font-size: 20px;
-   padding-left: 11%;
-}
-#marsheber .police2
-{
-   height: 1px;
-}
+   .arecherche 
+   {
+      position: relative;
+   }
+   #loupe
+   {
+      position: absolute;
+      color: white;
+      padding-left: 12px;
+      padding-top: 12px;
+      font-size: 16px;
+   }
+   form 
+   {
+      padding-left: 15px;
+   }
+   .ulfiltres 
+   {
+      padding-left: 15px;
+   }
+   .souligne1
+   {
+      margin-right: 20%;
+      font-size: 20px;
+   }
+   .souligne2 
+   {
+      font-size: 20px;
+      opacity: .9;
+   }
+      
+   .souligne3 
+   {
+      margin-top: 20px;
+      font-size: 20px;
+      padding-left: 11%;
+   }
+   #marsheber .police2
+   {
+      height: 1px;
+   }
 }
 @media screen and (max-width:876px) and (min-width:680px)
 {
-.fam1,.fam2
-{
-   margin-top: 15px;
-}}
+   .fam1,.fam2
+   {
+      margin-top: 15px;
+   }
+}
 @media screen and (max-width:876px) and (min-width:689px)
 {
 
-.section2 
-{
-   margin-top: 0px;
-}
+   .section2 
+   {
+      margin-top: 0px;
+   }
 }
 @media screen and (max-width:563px) and (min-width:464px)
 {
 
-div.boxinfo 
-{
-   margin-top: 155px;
-}
-.popultexte .etoilebleue
-{
-   margin-top: 50px;
-    
-}
-a.souligne3 
-{
-   margin-left: 0%;
-   padding-left: 21%;
+   div.boxinfo 
+   {
+      margin-top: 155px;
+   }
+   .popultexte .etoilebleue
+   {
+      margin-top: 50px;
+      
+   }
+   a.souligne3 
+   {
+      margin-left: 0%;
+      padding-left: 21%;
 
-}
+   }
 
-a.souligne1
-{
-   
-   margin-right: 25%;
-   
-}}
+   a.souligne1
+   {
+      
+      margin-right: 25%;
+      
+   }
+}
 @media screen and (max-width:463px) and (min-width:376px)
 {
-.section2
-{
-   height: 1520px;
-}
+   .section2
+   {
+      height: 1520px;
+   }
 }   
 @media screen and (max-width:463px) and (min-width:375px)  
 {
-#marsactiv 
-{
-   padding: 0%;
-}  
-.photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6 
-{
-  margin-left: 15px;
-}  
-a.souligne3 
-{
-   margin-left: 0%;
-   padding-left: 15%;
-   
-}
-#marsheber h5 
-{
-   padding-bottom: 50px;
-   padding-left: 10px;
-}
-a.souligne1
-{
-     
-   margin-right: 20%;
+   #marsactiv 
+   {
+      padding: 0%;
+   }  
+   .photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6 
+   {
+   margin-left: 15px;
+   }  
+   a.souligne3 
+   {
+      margin-left: 0%;
+      padding-left: 15%;
       
-}
-.afficherplus
-{
-   margin-top: 130px;
-   font-size: 15px;
-}
-div.boxinfo
-{
-   margin-top: 155px;
-}
-.section4 
-{
-   
-   margin-top: 250px;
-}
-.section4 h5
-{
-   
-   padding-top: 10px;
-}
+   }
+   #marsheber h5 
+   {
+      padding-bottom: 50px;
+      padding-left: 10px;
+   }
+   a.souligne1
+   {
+     
+      margin-right: 20%;
+         
+   }
+   .afficherplus
+   {
+      margin-top: 130px;
+      font-size: 15px;
+   }
+   div.boxinfo
+   {
+      margin-top: 155px;
+   }
+   .section4 
+   {
+      
+      margin-top: 250px;
+   }
+   .section4 h5
+   {
+      
+      padding-top: 10px;
+   }
 
-.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
-{
-   height: 180px;
-}
-.etoilebleue 
-{
-   margin-top: 10px;
-}
-.trois1
-{
-   margin-top: 275px;
-}
-footer 
-{
-   margin-left: 0px;
-   height: 350px;
-}
+   .photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
+   {
+      height: 180px;
+   }
+   .etoilebleue 
+   {
+      margin-top: 10px;
+   }
+   .trois1
+   {
+      margin-top: 275px;
+   }
+   footer 
+   {
+      margin-left: 0px;
+      height: 350px;
+   }
 
 }
 @media screen and (max-width:1000px) and (min-width:877px)  
 {
 
 
-.souligne2 
-{
-   margin-right: -20px;
-   
-}
-.link 
-{
-   width: 95%;
-}
-.souligne1 
-{
-   margin-left: -10%;
-}
-.souligne3 
-{
-   margin-left: 10px;
-}
+   .souligne2 
+   {
+      margin-right: -20px;
+      
+   }
+   .link 
+   {
+      width: 95%;
+   }
+   .souligne1 
+   {
+      margin-left: -10%;
+   }
+   .souligne3 
+   {
+      margin-left: 10px;
+   }
 }
 @media screen and (max-width:375px)
 {
-#marspopul .etoilebleue 
-{
-   padding-top: 27px;
-}
+   #marspopul .etoilebleue 
+   {
+      padding-top: 27px;
+   }
 
-.photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6
-{
-   margin-left: 15px;
-}
-a.souligne3 
-{
-   margin-left: 0%;
-   padding-left: 30px;
+   .photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6
+   {
+      margin-left: 15px;
+   }
+   a.souligne3 
+   {
+      margin-left: 0%;
+      padding-left: 30px;
 
-}
-a.souligne1
-{
-   width: 200px;
-   margin-right: 0%;
+   }
+   a.souligne1
+   {
+      width: 200px;
+      margin-right: 0%;
+      
+   }
+   #marsactiv
+   {
+      
+      margin-top: 10px;
+   }
+   .section4 
+   {
+      width: 100%;
+      margin-top: 250px;
    
-}
-#marsactiv
-{
-   padding-left: 0%;
-}
-#marspopul 
-{
-   width: 100%;
-   margin-bottom: 0px;
-   margin-bottom: 80px;
-}
-.nav2ligne2
-{
-   background-color: white;
-}
-.p2 
-{
-   margin-top: 0px;
-}
-i.ifas.fa-info 
-{
-   margin-top: 1px;
-}
-.section2 
-{
-   height: 1500px;
-   margin-top: 70px;
-}
-.section4 
-{
-   width: 100%;
-   margin-top: 250px;
-  
-}
-.afficherplus
-{
-   margin-top: 125px;
-   font-size: 15px;
-}
-.section4 h5
-{
-   padding-top: 15px;
-   margin-bottom: 2%;
-   padding-left: 0%;
-  
-}
-.boxinfo
-{
-   padding-top: 30px;
-}
-#marsheber 
-{
-   margin-top: -70px;
-}
-#marsheber .police,.police2
-{
-   font-size: 14px;
-  
-} 
-#marsheber .etoilebleue 
-{
-   margin-top: 10px;
-}
-#marsheber h5 
-{
-   padding-bottom: 50px;
-   padding-left: 10px;
-}
+   }
+   .afficherplus
+   {
+      margin-top: 125px;
+      font-size: 15px;
+   }
+   .section4 h5
+   {
+      padding-top: 15px;
+      margin-bottom: 2%;
+      padding-left: 0%;
+   
+   }
+   .boxinfo
+   {
+      padding-top: 30px;
+   }
+   #marsheber 
+   {
+      margin-top: -70px;
+   }
+   #marsheber .police,.police2
+   {
+      font-size: 14px;
+   
+   } 
+   #marsheber .etoilebleue 
+   {
+      margin-top: 10px;
+   }
+   #marsheber h5 
+   {
+      padding-bottom: 50px;
+      padding-left: 10px;
+   }
 
-.troistrois1
-{height: 800px;}
-.trois1 
-{
-   margin-top: 275px;
-}
-footer 
-{
-   margin-left: 0%;
-   margin-top: -7%;
-   height: 350px;
-   
-   
-}
+   .troistrois1
+   {height: 800px;}
+   .trois1 
+   {
+      margin-top: 275px;
+   }
+   footer 
+   {
+      margin-left: 0%;
+      margin-top: -7%;
+      height: 350px;
+      
+      
+   }
 }
 
 @media screen and (max-width:600px) and (min-width:564px)
 {
 
-.boxinfo 
-{
-   padding-top: 35px;
-}
+   .boxinfo 
+   {
+      padding-top: 35px;
+   }
 }
 @media screen and (max-width:1000px) and (min-width:877px)
 {
-.souligne1
-{
-   margin-left: -3%;
-   font-size: 14px;
-}
-.souligne2
-{
-   margin-left: -3%;
-   font-size: 14px;
-}
-.souligne2
-{
-   margin-left: -3%;
-   font-size: 14px;
-}
+   .souligne1
+   {
+      margin-left: -3%;
+      font-size: 14px;
+   }
+   .souligne2
+   {
+      margin-left: -3%;
+      font-size: 14px;
+   }
+   .souligne2
+   {
+      margin-left: -3%;
+      font-size: 14px;
+   }
 
-.traitdesktop1
-{
-   width: 90%;
-}
-.boxinfo
-{
-   padding-top: 60px;
-}
-.section2 
-{
-   margin-top: 110px;
-}
-.fam4 
-{
-   margin-left: 57px;
-   margin-top: 15px;
-} 
+   .traitdesktop1
+   {
+      width: 90%;
+   }
+   .boxinfo
+   {
+      padding-top: 60px;
+   }
+   .section2 
+   {
+      margin-top: 110px;
+   }
+   .fam4 
+   {
+      margin-left: 57px;
+      margin-top: 15px;
+   } 
 }
 @media screen and (max-width:1004px) and (min-width:877px)
 {
-#marsheber .police,.police2 
-{
-   font-size: 13px;
-}
-#marsactiv .police,.police2 
-{
-   font-size: 12px;
-}
+   #marsheber .police,.police2 
+   {
+      font-size: 13px;
+   }
+   #marsactiv .police,.police2 
+   {
+      font-size: 12px;
+   }
 }
 @media screen and (max-width:1000px) and (min-width:977px)
 {
-.fam4 
-{
-   margin: 0;
-} 
-.boxinfo
-{
-   padding-top: 0%;
-} 
-.section2 
-{
-   margin-top: 50px;
-}
+   .fam4 
+   {
+      margin: 0;
+   } 
+   .boxinfo
+   {
+      padding-top: 0%;
+   } 
+   .section2 
+   {
+      margin-top: 50px;
+   }
 }
 @media screen and (max-width:876px) and (min-width:564px)
 {
 
-.imgreservia 
-{
-   padding-left: 8%;
-}
-.souligne1 
-{
-      
-padding-left: 7%;
-}
-.afficherplus 
-{
-   font-size: 15px;
-   padding-bottom: 10px;
-}
-.section4 h5
-{
-   padding-top: 20px;
-}   
-.nav2 
-{
-   width: 95%;
-} 
-.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
-{
-   margin-left: 5%;
-} 
-.photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6  
-{
-   margin-left: 5%;
-}
+   .imgreservia 
+   {
+      padding-left: 8%;
+   }
+   .souligne1 
+   {
+         
+   padding-left: 7%;
+   }
+   .afficherplus 
+   {
+      font-size: 15px;
+      padding-bottom: 10px;
+   }
+   .section4 h5
+   {
+      padding-top: 20px;
+   }   
+   .nav2 
+   {
+      width: 95%;
+   } 
+   .photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6
+   {
+      margin-left: 5%;
+   } 
+   .photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6  
+   {
+      margin-left: 5%;
+   }
 
 
 }
 @media screen and (max-width:364px)
 {
 
-.p2
-{
-   margin-top: 50px;
-   
-}
-header 
-{
-   height: 580px;
-}
-i.fas.fa-info 
-{
-   margin-top: 60px;
-}
+   .p2
+   {
+      margin-top: 50px;
+      
+   }
+   header 
+   {
+      height: 580px;
+   }
+   i.fas.fa-info 
+   {
+      margin-top: 60px;
+   }
 }
 @media screen and (max-width:374px)
 {
-.photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6 
-{
-   height: 170px;
+   .photoh1,.photoh2,.photoh3,.photoh4,.photoh5,.photoh6 
+   {
+      height: 170px;
+   }
+   .ecotexte 
+   {
+      font-size: 16px;
+      position: absolute;
+      padding-top: 9px;
+      padding-left: 5%;
+   }
+   .trois1 
+   {
+      margin-top: 245px;
+   }
 }
-.ecotexte 
-{
-   font-size: 16px;
-   position: absolute;
-   padding-top: 9px;
-   padding-left: 5%;
-}
-.trois1 
-{
-   margin-top: 245px;
-}}
 @media screen and (max-width:363px)
 {
-.fam3
-{
-  
-   margin-top: 10px;
-}
+   .fam3
+   {
+   
+      margin-top: 10px;
+   }
 
 }
 @media screen and (max-width:468px)
 {
-.fam4 
-{
-   width: 250px;
-   position: relative;
-}
-.fas.fa-dog 
-{
-   width: 15px ;
-   height:15px ;
-   border-radius: 50%;
-}
-.fas.fa-dog::before 
-{
-   position: absolute;
-   margin-left:-17px;
-   font-size: 22px;
-}
-i.fas.fas.fa-heart 
-{
-   font-size: 22px;
-}
-i.fas.fa-child::before
-{
-   font-size: 24px;
-   position: absolute;
-   margin-left: -9px;
-}
-}
+   .fam4 
+   {
+      width: 250px;
+      position: relative;
+   }
+   .fas.fa-dog 
+   {
+      width: 15px ;
+      height:15px ;
+      border-radius: 50%;
+   }
+   .fas.fa-dog::before 
+   {
+      position: absolute;
+      margin-left:-17px;
+      font-size: 22px;
+   }
+   i.fas.fas.fa-heart 
+   {
+      font-size: 22px;
+   }
+   i.fas.fa-child::before
+   {
+      font-size: 24px;
+      position: absolute;
+      margin-left: -9px;
+   }
+   }
 @media screen and (max-width: 600px)
 {
-.section2 
-{
-   margin-top: 50px;
-}
+   .section2 
+   {
+      margin-top: 50px;
+   }
 }
 @media screen and (max-width:976px) and (min-width:877px) 
 {
-.fam4{
-   margin-left: 70px;
-}
+   .fam4{
+      margin-left: 70px;
+   }
 }
 @media screen and (min-width:877px)
 {
 
-.section2
-{
-   margin-top: 12%;
-   
-}
-.section4
-{
-   
-   align-items: center;
-}
-form 
-{
-   height: 60pxs;
-}
+   .section2
+   {
+      margin-top: 12%;
+      
+   }
+   .section4
+   {
+      
+      align-items: center;
+   }
 }
 @media screen and (max-width:876px) and (min-width:364px)
 {
-h5 
-{
-   padding-left: 2.6%;
-}
+   h5 
+   {
+      padding-left: 2.6%;
+   }
 }
 @media screen and (max-width:1155px) and (min-width:877px)
 {
-header
-{
-   height: 400px;
-}
+   header
+   {
+      height: 400px;
+   }
 }
 @media screen and (max-width:1155px) and (min-width:977px)
 {
-header
-{
-   height: 350px;
-}
-.section2
-{
-   margin-top: 90px;
-}
+   header
+   {
+      height: 350px;
+   }
+   .section2
+   {
+      margin-top: 90px;
+   }
 }
 @media screen and (max-width:375px) and (min-width:365px)
 {
-.p2
-{
-   margin-top: -20px;
-}
-i.fas.fa-info 
-{
-   margin-top: -20px;
-}
-.section2
-{
-   padding-top: 100px;
-}
+   .p2
+   {
+      margin-top: -20px;
+   }
+   i.fas.fa-info 
+   {
+      margin-top: -20px;
+   }
+   .section2
+   {
+      padding-top: 100px;
+   }
 }  
 @media screen and (max-width:364px) and (min-width:364px)
 {
-.p2
-{
-   margin-top: -15px;
+   .p2
+   {
+      margin-top: -15px;
 
-}
-i.fas.fa-info 
-{
-   margin-top: -15px;
-}
-.section2
-{
-   margin-top: 10px;
-}
+   }
+   i.fas.fa-info 
+   {
+      margin-top: -15px;
+   }
+   .section2
+   {
+      margin-top: 10px;
+   }
 }
 @media screen and (max-width:876px) and (min-width:464px)
 {
-footer 
-{
-   width: 100%;
-   height: 310px;
-   position: relative;
-   margin-top: 850px;
-   
-   
-}
-.apropos 
-{
-   position: absolute;
-   font-size: 12px;
-   padding-right: 10%;
-   padding-bottom: 25px;
-   width: 25%;
-   height: 26%;
-}
-span.apropos strong,span.noshebergements strong,span.assistance strong
-{
-   
-   font-size:16px;
-   opacity: .8;
-}
-.noshebergements 
-{
-   width: 33%;
-   height: 26%;
-   position: absolute;
-   font-size: 12px;
-   padding-left: 53%;
-   
-}
-.assistance 
-{
-   width: 25%;
-   height: 26%;
-   position: absolute;
-   font-size: 12px;
-   padding-left: 126%;
-   
-}
-   
+   footer 
+   {
+      width: 100%;
+      height: 310px;
+      position: relative;
+      margin-top: 850px;
+      
+      
+   }
+   .apropos 
+   {
+      position: absolute;
+      font-size: 12px;
+      padding-right: 10%;
+      padding-bottom: 25px;
+      width: 25%;
+      height: 26%;
+   }
+   span.apropos strong,span.noshebergements strong,span.assistance strong
+   {
+      
+      font-size:16px;
+      opacity: .8;
+   }
+   .noshebergements 
+   {
+      width: 33%;
+      height: 26%;
+      position: absolute;
+      font-size: 12px;
+      padding-left: 53%;
+      
+   }
+   .assistance 
+   {
+      width: 25%;
+      height: 26%;
+      position: absolute;
+      font-size: 12px;
+      padding-left: 126%;
+      
+   }
+      
 }
 @media screen and (max-width:463px)
 {
-.fam1,.fam2,.fam3,.fam4
-{
-   position: relative;
-   font-size: 18px;
-}
-#listefiltre 
-{
-   width: 90%;
-}
-.fam1 .ecotexte
-{
-   position: absolute;
-   margin-left: 10px;
-}
-.fam3 .ecotexte
-{
-   position: absolute;
-   margin-left: 10px;
-}
-.fam4 .ecotexte
-{
-   position: absolute;
-   margin-left: 18px;
-}
+   .fam1,.fam2,.fam3,.fam4
+   {
+      position: relative;
+      font-size: 18px;
+   }
+   #listefiltre 
+   {
+      width: 90%;
+   }
+   .fam1 .ecotexte
+   {
+      position: absolute;
+      margin-left: 10px;
+   }
+   .fam3 .ecotexte
+   {
+      position: absolute;
+      margin-left: 10px;
+   }
+   .fam4 .ecotexte
+   {
+      position: absolute;
+      margin-left: 18px;
+   }
 }
 @media screen and (max-width:402px)
 {
-.section2
-{
-   margin-top: 80px;
-}
-.p2
-{
-   margin-top: 65px;
-}
-i.fas.fa-info
-{
-   margin-top: 76px;
-}
-.fam3
-{
-   margin-top: 10px;
-}
-.ulfiltres
-{
-   width: 95%;
-}
+   .section2
+   {
+      margin-top: 80px;
+   }
+   .p2
+   {
+      margin-top: 65px;
+   }
+   i.fas.fa-info
+   {
+      margin-top: 76px;
+   }
+   .fam3
+   {
+      margin-top: 10px;
+   }
+   .ulfiltres
+   {
+      width: 95%;
+   }
 }
 @media screen and (max-width:408px)
 {
-.ecotexte
-{
-   font-size: 15px;
-   padding-left: 0px;
-}
-.fam1,.fam3 
-{
-   width: 150px;
-   height: 43px;
-   
-}
-#listefiltre
-{
-   width: 99%;
-}
-.fam4
-{
-   width: 211px;
-   height: 40px;
-}
-.fam2
-{
-   width: 130px;
-   height: 43px;
-}
-.ulfiltres
-{
-   width: 95%;
-}
-.nav2ligne1
-{
-   width: 90%;
-}
+   .ecotexte
+   {
+      font-size: 15px;
+      padding-left: 0px;
+   }
+   .fam1,.fam3 
+   {
+      width: 150px;
+      height: 43px;
+      
+   }
+   #listefiltre
+   {
+      width: 99%;
+   }
+   .fam4
+   {
+      width: 211px;
+      height: 40px;
+   }
+   .fam2
+   {
+      width: 130px;
+      height: 43px;
+   }
+   .ulfiltres
+   {
+      width: 95%;
+   }
+   .nav2ligne1
+   {
+      width: 90%;
+   }
 
 }
 @media screen and (max-width:338px)
 {
-.nav2ligne1
-{
-   width: 55%;
-}
+   .nav2ligne1
+   {
+      width: 55%;
+   }
 }
 @media screen and (min-width:877px)
 {
-.section2
-{
-   margin: auto;
-   margin-top: 80px;
-}
-.section4
-{
-   margin-left: 2.5%;
-}
+   .section2
+   {
+      margin: auto;
+      margin-top: 80px;
+   }
+   .section4
+   {
+      margin-left: 2.5%;
+   }
 }
 @media screen and (min-width:1156px)
 {
-.section2 
-{
-   margin-top: 120px;
-}
+   .section2 
+   {
+      margin-top: 120px;
+   }
 }
 @media screen and (max-width:402px) and (min-width:344px)
 {
-.fam1
-{
-   margin-bottom: 0%;
-}
-p.p2 
-{
-   margin-top: -5px;
-}
-i.fas.fa-info
-{
-   margin-top: -2px;
-}
-.section2
-{
-   margin-top: -20px;
-}
+   .fam1
+   {
+      margin-bottom: 0%;
+   }
+   p.p2 
+   {
+      margin-top: -5px;
+   }
+   i.fas.fa-info
+   {
+      margin-top: -2px;
+   }
+   .section2
+   {
+      margin-top: -20px;
+   }
 }
 @media screen and (max-width:402px) and (min-width:376px)
 {
    p.p2 
-{
-   margin-top: 25px;
-}
-i.fas.fa-info
-{
-   margin-top: 25px;
-}
-.section2
-{
-   margin-top: 40px;
-}
+   {
+      margin-top: 25px;
+   }
+   i.fas.fa-info
+   {
+      margin-top: 25px;
+   }
+   .section2
+   {
+      margin-top: 40px;
+   }
 }
 @media screen and (max-width:916px) and (min-width:877px)
 {
-#marsheber .photoh1 span.police
-{
-   font-size: 12px;
-  
-}  
+   #marsheber .photoh1 span.police
+   {
+      font-size: 12px;
+   
+   }  
 }
 
 
