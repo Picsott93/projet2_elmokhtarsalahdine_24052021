@@ -4,6 +4,7 @@
 body{ 
    font-family :'Raleway',sans-serif;
 }
+
 div a 
 {
    touch-action: manipulation;
@@ -51,6 +52,13 @@ nav
    font-size: 1em;
    padding-left: 64%;
    
+}
+.traitdesktop1 
+{
+   width: 100%;
+   height: 2px;
+   background-color: #0065FC;
+   margin-top: -53px;
 }
 
 .enfant2 
@@ -513,9 +521,11 @@ h5
    box-shadow: 1px 1px 6px silver ;
    text-align: start;
    margin-bottom: 5px;
+}
+.photoh1 
+{
    
 }
-
 .photoh1p,.photoh2p,.photoh3p,.photoh4p,.photoh5p,.photoh6p
 {
    width: 98%;
@@ -1735,11 +1745,12 @@ span.assistance
 }}
 @media screen and (max-width: 1200px) and (min-width:877px)
 {
-.enfant1
-{
-   
-   padding-left: 50%;
-}
+   .enfant1
+   {
+      
+      padding-left: 50%;
+   }
+ 
 }
 @media screen and (max-width:876px)
 {
@@ -1771,7 +1782,7 @@ form
 .souligne2 
 {
    font-size: 20px;
-   opacity: .4;
+   opacity: .9;
 }
    
 .souligne3 
@@ -2025,22 +2036,7 @@ footer
    
 }
 }
-@media screen and (max-width:876px) 
-{
 
-.souligne1 
-{
-   margin-right: 50%;
-}
-.souligne3 
-{
-   margin-left: 25%;
-}
-.etoilebleue
-{
-   margin-bottom: 35px;
-}
-}
 @media screen and (max-width:600px) and (min-width:564px)
 {
 
@@ -2053,13 +2049,24 @@ footer
 {
 .souligne1
 {
-   margin-left: -35%;
+   margin-left: -3%;
+   font-size: 14px;
 }
 .souligne2
 {
-   margin-left: -18.5%;
+   margin-left: -3%;
+   font-size: 14px;
+}
+.souligne2
+{
+   margin-left: -3%;
+   font-size: 14px;
 }
 
+.traitdesktop1
+{
+   width: 90%;
+}
 .boxinfo
 {
    padding-top: 60px;
@@ -2298,41 +2305,49 @@ i.fas.fa-info
 }
 @media screen and (max-width:876px) and (min-width:464px)
 {
-   footer 
-   {
-      width: 100%;
-      height: 350px;
-      align-items: center;
-      margin-top: 815px;
-      margin-left: 0px;
-      margin-right: 0px;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-   }
-   span.apropos 
-   {
-      position: absolute;
-      font-size: 12px;
-      padding-bottom: 230px;
-     
-      
-      
-   }
+footer 
+{
+   width: 100%;
+   height: 310px;
+   position: relative;
+   margin-top: 850px;
    
-   span.noshebergements 
-   {
-      font-size: 12px;
-      position: absolute;
-      padding-top: 20px;
-   }
-   span.assistance 
-   {
-      font-size: 12px;
-      position: absolute;
-      padding-top: 230px;
-      padding-right: 10px;
-   } 
+   
+}
+.apropos 
+{
+   position: absolute;
+   font-size: 12px;
+   padding-right: 10%;
+   padding-bottom: 25px;
+   width: 25%;
+   height: 26%;
+}
+span.apropos strong,span.noshebergements strong,span.assistance strong
+{
+   
+   font-size:16px;
+   opacity: .8;
+}
+.noshebergements 
+{
+   width: 33%;
+   height: 26%;
+   position: absolute;
+   font-size: 12px;
+   padding-left: 53%;
+   
+}
+.assistance 
+{
+   width: 25%;
+   height: 26%;
+   position: absolute;
+   font-size: 12px;
+   padding-left: 126%;
+   
+}
+   
 }
 @media screen and (max-width:463px)
 {
@@ -2447,3 +2462,54 @@ i.fas.fa-info
    margin-top: 120px;
 }
 }
+@media screen and (max-width:402px) and (min-width:344px)
+{
+.fam1
+{
+   margin-bottom: 0%;
+}
+p.p2 
+{
+   margin-top: -5px;
+}
+i.fas.fa-info
+{
+   margin-top: -2px;
+}
+.section2
+{
+   margin-top: -20px;
+}
+}
+@media screen and (max-width:402px) and (min-width:376px)
+{
+   p.p2 
+{
+   margin-top: 25px;
+}
+i.fas.fa-info
+{
+   margin-top: 25px;
+}
+.section2
+{
+   margin-top: 40px;
+}
+}
+@media screen and (max-width:916px) and (min-width:877px)
+{
+#marsheber .photoh1 span.police
+{
+   font-size: 12px;
+  
+}  
+}
+
+
+
+
+
+
+
+
+
