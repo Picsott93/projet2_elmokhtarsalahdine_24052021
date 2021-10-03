@@ -1936,7 +1936,7 @@ span.assistance strong
    {
       padding-top: 27px;
    }
-
+   
    .photoa1,.photoa2,.photoa3,.photoa4,.photoa5,.photoa6
    {
       margin-left: 15px;
@@ -1961,8 +1961,13 @@ span.assistance strong
    .section4 
    {
       width: 100%;
-      margin-top: 250px;
+      margin-top: 260px;
    
+   }
+   .section2
+   {
+      margin-top: 0px;
+      height: 1480px;
    }
    .afficherplus
    {
@@ -1972,7 +1977,7 @@ span.assistance strong
    .section4 h5
    {
       padding-top: 15px;
-      margin-bottom: 2%;
+      margin-bottom: 4%;
       
    
    }
@@ -1980,10 +1985,7 @@ span.assistance strong
    {
       padding-top: 30px;
    }
-   #marsheber 
-   {
-      margin-top: 10px;
-   }
+
    #marsheber .police,.police2
    {
       font-size: 14px;
@@ -2000,7 +2002,9 @@ span.assistance strong
    }
 
    .troistrois1
-   {height: 800px;}
+   {
+      height: 800px;
+   }
    .trois1 
    {
       margin-top: 275px;
@@ -2019,6 +2023,18 @@ span.assistance strong
    #marsactiv
    {
       padding-left: 0%;
+   }
+   #marspopul
+   {
+      margin-top: -10px;
+   }
+   .bourse h5,header h5,#marsheber h5,.section4 h5
+   {
+      font-size: 21px;
+   }
+   span.apropos strong,span.noshebergements strong,span.assistance strong
+   {
+      font-size: 16px;
    }
 }
 @media screen and (max-width:600px) and (min-width:564px)
@@ -2253,7 +2269,7 @@ span.assistance strong
       margin-top: 90px;
    }
 }
-@media screen and (max-width:375px) and (min-width:365px)
+@media screen and (max-width:376px) and (min-width:365px)
 {
    .p2
    {
