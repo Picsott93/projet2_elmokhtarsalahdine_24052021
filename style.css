@@ -1806,7 +1806,7 @@ span.assistance strong
 
    .section2 
    {
-      margin-top: 0px;
+      margin-top: -10px;
    }
 }
 @media screen and (max-width:563px) and (min-width:464px)
@@ -1955,7 +1955,7 @@ span.assistance strong
    }
    #marsactiv
    {
-      
+     
       margin-top: 10px;
    }
    .section4 
@@ -1973,7 +1973,7 @@ span.assistance strong
    {
       padding-top: 15px;
       margin-bottom: 2%;
-      padding-left: 0%;
+      
    
    }
    .boxinfo
@@ -1982,7 +1982,7 @@ span.assistance strong
    }
    #marsheber 
    {
-      margin-top: -70px;
+      margin-top: 10px;
    }
    #marsheber .police,.police2
    {
@@ -2014,7 +2014,13 @@ span.assistance strong
       
    }
 }
-
+@media screen and (max-width:374px)
+{
+   #marsactiv
+   {
+      padding-left: 0%;
+   }
+}
 @media screen and (max-width:600px) and (min-width:564px)
 {
 
