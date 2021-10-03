@@ -2536,8 +2536,16 @@ span.assistance strong
     
 }
 }
+@media screen and (max-width:897px) and (min-width:877px)
+{
+   .photopop3 .etoilebleue
+   {
+      
+   }
+    #marspopul .police,#marspopul .police
+    {
+       font-size: 12px;
+    }
 
 
-
-
-
+}
