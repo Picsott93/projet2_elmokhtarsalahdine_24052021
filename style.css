@@ -399,16 +399,27 @@ h5
    
     
 }
- .popultexte .etoilebleue
+.popultexte .etoilebleue
 {
    font-size: 10px;
    color: #0065FC;
    padding-left: 10px;
    display: flex;
    align-items: center;
-   padding-top: 30%;
+   padding-top: 32%;
     
 }
+.hebertexte .etoilebleue
+{
+   font-size: 10px;
+   color: #0065FC;
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   
+    
+}
+
 
 .etoilegrise 
 {
@@ -1508,6 +1519,16 @@ span.assistance strong
       margin-left: .5%;
       margin-top: .5%;
    }
+   .hebertexte .etoilebleue
+{
+   font-size: 10px;
+   color: #0065FC;
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   padding-top: 2px;
+    
+}
 
 
    .troistrois1
@@ -1979,7 +2000,7 @@ span.assistance strong
       padding-top: 15px;
       margin-bottom: 4%;
       
-   
+    
    }
    .boxinfo
    {
@@ -2502,9 +2523,19 @@ span.assistance strong
    }  
 }
 
-
-
-
+@media screen and (max-width:670px) and (min-width:464px)
+{
+.hebertexte .etoilebleue
+{
+   font-size: 10px;
+   color: #0065FC;
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   padding-top: 6px;
+    
+}
+}
 
 
 
