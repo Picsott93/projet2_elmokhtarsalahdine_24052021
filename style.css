@@ -1722,38 +1722,7 @@
       margin-bottom: 10px;
       
    }
-   footer 
-   {
-      width: 100%;
-      height: 350px;
-      align-items: center;
-      margin-top: 815px;
-      margin-left: 0px;
-      margin-right: 0px;
-      display: flex;
-      flex-direction: column;
-   }
-   span.apropos 
-   {
-      
-      font-size: 12px;
-      margin-left: -55%;
-      
-      
-   }
-
-   span.noshebergements 
-   {
-      font-size: 12px;
-      margin-left: -43%;
-   
-   }
-   span.assistance 
-   {
-      font-size: 12px;
-      margin-left: -40%;
-
-   }
+  
 
    #marspopul .etoilebleue 
    {
@@ -2323,47 +2292,27 @@
 {
    footer 
    {
-      width: 100%;
-      height: 310px;
+      margin-top: 833px;
+      margin-left: 1%;
+      margin-right: 1%;
+      padding-left: 33px;
       position: relative;
-      margin-top: 850px;
-      
-      
    }
-   .apropos 
+   
+   span.assistance strong,span.noshebergements strong,span.apropos strong 
    {
-      position: absolute;
-      font-size: 12px;
-      padding-right: 10%;
-      padding-bottom: 25px;
-      width: 25%;
-      height: 26%;
+      font-size: 14px;
    }
-   span.apropos strong,span.noshebergements strong,span.assistance strong
+   .fonctionsite,
+   .generalvente,
+   .donnees,
+   .qualite,
+   .soumettre,
+   .centraide,
+   .contacter
    {
-      
-      font-size:16px;
-      opacity: .8;
-   }
-   .noshebergements 
-   {
-      width: 33%;
-      height: 26%;
-      position: absolute;
-      font-size: 12px;
-      padding-left: 53%;
-      
-   }
-   .assistance 
-   {
-      width: 25%;
-      height: 26%;
-      position: absolute;
-      font-size: 12px;
-      padding-left: 126%;
-      
-   }
-      
+      font-size: 14px;
+   }  
 }
 @media screen and (max-width:463px)
 {
