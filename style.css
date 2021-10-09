@@ -25,12 +25,7 @@
       width: 110px;
       height: 50px;
    }
-   .link 
-   {
-      width: 99%;
-      height: 20%;
-      justify-content: space-between;
-   }
+   
    nav
    {  
       width: 98%;
@@ -342,9 +337,9 @@
       width: 98%;
       
    }
-   .section4 h1
+   .section4 h2
    {
-      padding-left: 2.%;
+      padding-left: 2%;
       opacity: .8;
       font-size: 22px;
    }
@@ -357,10 +352,10 @@
       background-color: #f2f2f2;
       border-radius: 12px/12px;
    }
-   #marsheber h1
+   #marsheber h2
    {
       margin-top: 2%;
-      margin-left: 3%;
+      margin-left: 13%;
       font-size: 22px;
       height: 19px;
    }
@@ -430,11 +425,11 @@
       border-radius: 12px/12px;
       align-items: center; 
    }
-   #marspopul h1
+   #marspopul h2
    {
-      margin-left: 5%;
+      margin-left: 3%;
       width: 82%;
-      color: black;
+      background-color: yellow;
    } 
 
 
@@ -445,7 +440,7 @@
       align-items: center;
       height: 50px;
    }
-   .bourse h1
+   .bourse h2
    {
       font-size: 22px;
       margin-bottom: 55px;
@@ -538,6 +533,8 @@
       object-fit: cover;
    
    }
+  
+ 
 
    /*vvvvvvvvvvvvvvvvvvvvvv--------------fin photos hebergements ------vvvvvvvvvvvvvvvvvvvvv*/
    .photoa1
@@ -559,7 +556,7 @@
       margin-top: 1%;
       margin-bottom: 20px;
    }
-
+   
    
    .photoa2
    {  
@@ -815,7 +812,7 @@
  
 @media screen and (max-width:463px) /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 {   
-   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
    body 
    {
       font-family:"raleway";
@@ -1054,7 +1051,7 @@
       margin-top: 5%;
       background-color: white;
    }
-   #marsheber h1
+   #marsheber h2
    {
       font-size: 24px;
       margin-bottom: 30px;
@@ -1149,7 +1146,7 @@
       
       
    }
-   .bourse h1
+   .bourse h2
    {
       width: 100%;
       font-size: 24px;
@@ -1218,7 +1215,7 @@
       padding-top: 10px;
       margin-left: 0px;
    }
-   .section4 h1
+   .section4 h2
    {
       font-size: 24px;
       margin-top: 30px;
@@ -1467,7 +1464,7 @@
       background-color: white; 
       margin: 0%;  
    }
-   #marsheber h1
+   #marsheber h2
    {
       font-size: 24px;
       padding-bottom: 210px;
@@ -1566,7 +1563,7 @@
       
       
    }
-   .bourse h1
+   .bourse h2
    {
       width: 100%;
       font-size: 24px;
@@ -1655,7 +1652,7 @@
       padding-top: 10px;
    
    }
-   .section4 h1
+   .section4 h2
    {
       font-size: 24px;
       margin-top: 60px;
@@ -1845,7 +1842,7 @@
       padding-left: 15%;
       
    }
-   #marsheber h1 
+   #marsheber h2 
    {
       padding-bottom: 50px;
       padding-left: 10px;
@@ -1870,7 +1867,7 @@
       
       margin-top: 250px;
    }
-   .section4 h1
+   .section4 h2
    {
       
       padding-top: 10px;
@@ -1904,10 +1901,7 @@
       margin-right: -20px;
       
    }
-   .link 
-   {
-      width: 95%;
-   }
+   
    a.souligne1 
    {
       margin-left: -10%;
@@ -1961,7 +1955,7 @@
       margin-top: 125px;
       font-size: 15px;
    }
-   .section4 h1
+   .section4 h2
    {
       padding-top: 15px;
       margin-bottom: 4%;
@@ -1982,7 +1976,7 @@
    {
       margin-top: 10px;
    }
-   #marsheber h1 
+   #marsheber h2 
    {
       padding-bottom: 50px;
       padding-left: 10px;
@@ -2015,7 +2009,7 @@
    {
       margin-top: -10px;
    }
-   .bourse h1,header h1,#marsheber h1,.section4 h1
+   .bourse h2,header h1,#marsheber h2,.section4 h2
    {
       font-size: 21px;
    }
@@ -2111,7 +2105,7 @@
       font-size: 15px;
       padding-bottom: 10px;
    }
-   .section4 h1
+   .section4 h2
    {
       padding-top: 20px;
    }   
@@ -2233,7 +2227,7 @@
 }
 @media screen and (max-width:876px) and (min-width:364px)
 {
-   h1 
+   h1,h2 
    {
       padding-left: 2.6%;
    }
@@ -2522,7 +2516,7 @@
       font-size: 13px;
       margin-top: 100px;
    }
-   .section2 h1,.section4 h1,header h1,#marsheber h1
+   .section2 h2,.section4 h2,header h1,#marsheber h2
    {
       font-size: 16px;
    }
