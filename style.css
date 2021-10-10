@@ -1,11 +1,15 @@
 
-   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-   
-
+   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');   
 
    body{ 
       font-family :'Raleway',sans-serif;
    }
+
+   div a 
+   {
+      touch-action: manipulation;
+   }
+
 
    header
    {  width: 98%;
@@ -14,7 +18,7 @@
       padding-top: 3%;
    }
 
-   header h1
+   h5
    {
       
       font-size: 22px;
@@ -25,7 +29,12 @@
       width: 110px;
       height: 50px;
    }
-   
+   .link 
+   {
+      width: 99%;
+      height: 20%;
+      justify-content: space-between;
+   }
    nav
    {  
       width: 98%;
@@ -35,7 +44,7 @@
    }
    .nav2
    {
-      height: 0;
+      height: 0em;
       opacity: 0;
    }
    .enfant1
@@ -327,19 +336,16 @@
    {
       display: flex;
       width: 96%;
-      padding-top:40px;
-      
-      
-      
+      padding-top:80px;
    }
    .section4
    {
       width: 98%;
       
    }
-   .section4 h2
+   .section4 h5
    {
-      padding-left: 2%;
+      
       opacity: .8;
       font-size: 22px;
    }
@@ -352,10 +358,10 @@
       background-color: #f2f2f2;
       border-radius: 12px/12px;
    }
-   #marsheber h2
+   #marsheber h5
    {
       margin-top: 2%;
-      margin-left: 13%;
+      margin-left: 3%;
       font-size: 22px;
       height: 19px;
    }
@@ -425,11 +431,11 @@
       border-radius: 12px/12px;
       align-items: center; 
    }
-   #marspopul h2
+   #marspopul h5
    {
-      margin-left: 3%;
+      margin-left: 5%;
       width: 82%;
-      background-color: yellow;
+      color: black;
    } 
 
 
@@ -440,7 +446,7 @@
       align-items: center;
       height: 50px;
    }
-   .bourse h2
+   .bourse h5
    {
       font-size: 22px;
       margin-bottom: 55px;
@@ -493,7 +499,7 @@
    .afficherplus
    {
       font-size: 16px;
-      padding-left: 6%;
+      padding-left: 3%;
       opacity: .7;
       color: black;
    
@@ -533,8 +539,6 @@
       object-fit: cover;
    
    }
-  
- 
 
    /*vvvvvvvvvvvvvvvvvvvvvv--------------fin photos hebergements ------vvvvvvvvvvvvvvvvvvvvv*/
    .photoa1
@@ -556,7 +560,7 @@
       margin-top: 1%;
       margin-bottom: 20px;
    }
-   
+
    
    .photoa2
    {  
@@ -695,6 +699,7 @@
       width: 90%;
       height: 26%;
       margin-bottom: 15px;
+      margin-top: 5%;
       margin-left: 5%;
       box-shadow: 1px 1px 6px silver ;
 
@@ -762,7 +767,7 @@
    {  
       background-color: #f2f2f2;
       font-size: 17px;
-      height: 180px;
+      height: 13em;
       width: 98%;
       display: flex;
       justify-content: space-around;
@@ -812,7 +817,7 @@
  
 @media screen and (max-width:463px) /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 {   
-
+   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
    body 
    {
       font-family:"raleway";
@@ -1020,7 +1025,7 @@
       height: 520px;
       
    }
-   HEADER h1 
+   HEADER h5
    {
       font-size: 22px;
       width: 90%;
@@ -1051,7 +1056,7 @@
       margin-top: 5%;
       background-color: white;
    }
-   #marsheber h2
+   #marsheber h5
    {
       font-size: 24px;
       margin-bottom: 30px;
@@ -1146,7 +1151,7 @@
       
       
    }
-   .bourse h2
+   .bourse h5
    {
       width: 100%;
       font-size: 24px;
@@ -1162,7 +1167,7 @@
    {
       width: 90%;
       box-shadow: 1px 1px 6px silver ;
-      
+      margin-top: 0%;
    
    }
    .photopop1p 
@@ -1215,11 +1220,11 @@
       padding-top: 10px;
       margin-left: 0px;
    }
-   .section4 h2
+   .section4 h5
    {
       font-size: 24px;
       margin-top: 30px;
-      margin-left: 17px;
+      margin-left: 3%;
    }
    .photoa1,.photoa4
    {
@@ -1353,7 +1358,6 @@
       width: 90px;
       height: 40px;
       margin-right: 40%;
-      margin-left: -40px;
       margin-top: 10px;
    }
    .nav2ligne1 
@@ -1435,7 +1439,7 @@
       height: 520px;
       
    }
-   HEADER h1 
+   HEADER h5 
    {
       font-size: 24px;
       width: 90%;
@@ -1464,7 +1468,7 @@
       background-color: white; 
       margin: 0%;  
    }
-   #marsheber h2
+   #marsheber h5
    {
       font-size: 24px;
       padding-bottom: 210px;
@@ -1476,7 +1480,7 @@
    {
       width: 50%;
       margin-top: 100px;
-     
+      padding-left: 30px;
       font-size: 12px;
    }
    .photoh1,.photoh2,.photoh3
@@ -1546,7 +1550,7 @@
    #marspopul
    {
       width: 100%;
-      height: 900px;
+      height: 1050px;
       
 
       
@@ -1563,7 +1567,7 @@
       
       
    }
-   .bourse h2
+   .bourse h5
    {
       width: 100%;
       font-size: 24px;
@@ -1640,7 +1644,7 @@
    }
    .afficherplus 
    {
-      margin-top: 300px;
+      margin-top: 280px;
    }
    #marsactiv                                        
    {
@@ -1652,10 +1656,10 @@
       padding-top: 10px;
    
    }
-   .section4 h2
+   .section4 h5
    {
       font-size: 24px;
-      margin-top: 60px;
+      margin-top: 50px;
       margin-left: 3%;
    }
    .photoa1,.photoa4
@@ -1753,26 +1757,36 @@
    {
       padding-left: 15px;
    }
-   a.souligne1
+   .souligne1
    {
       margin-right: 20%;
       font-size: 20px;
    }
-   a.souligne2 
+   .souligne2 
    {
       font-size: 20px;
       opacity: .9;
    }
       
-   a.souligne3 
+   .souligne3 
    {
       margin-top: 20px;
       font-size: 20px;
-      padding-left: 27%;
+      padding-left: 11%;
    }
    #marsheber .police2
    {
       height: 1px;
+   }
+   .Filtres 
+   {
+      margin-left: 5px;
+   }
+   #marspopul h5
+   {
+      margin-left: 3%;
+      width: 82%;
+      color: black;
    }
 }
 @media screen and (max-width:876px) and (min-width:680px)
@@ -1808,14 +1822,11 @@
       padding-left: 21%;
 
    }
-   .imgreservia
-   {
-      padding-left: 40px;
-   }
+
    a.souligne1
    {
       
-      margin-right: 31%;
+      margin-right: 25%;
       
    }
 }
@@ -1824,6 +1835,13 @@
    .section2
    {
       height: 1520px;
+   }
+} 
+@media screen and (max-width:563px) and (min-width:464px)
+{
+   .afficherplus
+   {
+      font-size: 18px;
    }
 }   
 @media screen and (max-width:463px) and (min-width:375px)  
@@ -1842,7 +1860,7 @@
       padding-left: 15%;
       
    }
-   #marsheber h2 
+   #marsheber h5 
    {
       padding-bottom: 50px;
       padding-left: 10px;
@@ -1862,12 +1880,12 @@
    {
       margin-top: 155px;
    }
-   .section4
+   .section4 
    {
       
       margin-top: 250px;
    }
-   .section4 h2
+   .section4 h5
    {
       
       padding-top: 10px;
@@ -1896,17 +1914,20 @@
 {
 
 
-   a.souligne2 
+   .souligne2 
    {
       margin-right: -20px;
       
    }
-   
-   a.souligne1 
+   .link 
+   {
+      width: 95%;
+   }
+   .souligne1 
    {
       margin-left: -10%;
    }
-   a.souligne3 
+   .souligne3 
    {
       margin-left: 10px;
    }
@@ -1955,7 +1976,7 @@
       margin-top: 125px;
       font-size: 15px;
    }
-   .section4 h2
+   .section4 h5
    {
       padding-top: 15px;
       margin-bottom: 4%;
@@ -1976,7 +1997,7 @@
    {
       margin-top: 10px;
    }
-   #marsheber h2 
+   #marsheber h5 
    {
       padding-bottom: 50px;
       padding-left: 10px;
@@ -2009,7 +2030,7 @@
    {
       margin-top: -10px;
    }
-   .bourse h2,header h1,#marsheber h2,.section4 h2
+   .bourse h5,header h5,#marsheber h5,.section4 h5
    {
       font-size: 21px;
    }
@@ -2028,17 +2049,17 @@
 }
 @media screen and (max-width:1000px) and (min-width:877px)
 {
-   a.souligne1
+   .souligne1
    {
       margin-left: -3%;
       font-size: 14px;
    }
-   a.souligne2
+   .souligne2
    {
       margin-left: -3%;
       font-size: 14px;
    }
-   a.souligne2
+   .souligne2
    {
       margin-left: -3%;
       font-size: 14px;
@@ -2077,7 +2098,7 @@
 {
    .fam4 
    {
-      margin: 0%;
+      margin: 0;
    } 
    .boxinfo
    {
@@ -2095,17 +2116,17 @@
    {
       padding-left: 8%;
    }
-   a.souligne1 
+   .souligne1 
    {
          
    padding-left: 7%;
    }
    .afficherplus 
    {
-      font-size: 15px;
-      padding-bottom: 10px;
+      font-size: 18px;
+      margin-left: 3%;
    }
-   .section4 h2
+   .section4 h5
    {
       padding-top: 20px;
    }   
@@ -2227,9 +2248,9 @@
 }
 @media screen and (max-width:876px) and (min-width:364px)
 {
-   h1,h2 
+   h5 
    {
-      padding-left: 2.6%;
+      padding-left: 3%;
    }
 }
 @media screen and (max-width:1155px) and (min-width:877px)
@@ -2285,34 +2306,45 @@
 {
    footer 
    {
-      width: 98%;
       margin-top: 833px;
       margin-left: 1%;
       margin-right: 1%;
-      
-      
+     
+      position: relative;
    }
-   
+   .apropos 
+   {
+      width: 40%;
+      margin-right: 57%;
+      position: absolute;
+      font-size: 14px;
+      padding-bottom: 1%;
+   }
+   .noshebergements 
+   {
+      width: 40%;
+      margin-left:25%;
+      position: absolute;
+      font-size: 14px;
+   }
+   .assistance
+   {
+      width: 30%;
+      margin-left: 95%;
+      position: absolute;
+      font-size: 14px;
+   }
    span.assistance strong,span.noshebergements strong,span.apropos strong 
    {
-      font-size: 14px;
+      font-size: 17px;
    }
-   .fonctionsite,
-   .generalvente,
-   .donnees,
-   .qualite,
-   .soumettre,
-   .centraide,
-   .contacter
+   span.noshebergements 
    {
-      font-size: 14px;
-      padding-left: 40px;
+       width:150 px;
    }
-   span.assistance strong,
-   span.noshebergements strong,
-   span.apropos strong
+   span.assistance  
    {
-      margin-left: 40px;
+      width: 98px;
    }  
 }
 @media screen and (max-width:463px)
@@ -2341,6 +2373,11 @@
       position: absolute;
       margin-left: 18px;
    }
+   .photopop1 
+   {
+      margin-bottom: 11px;
+   }
+   
 }
 @media screen and (max-width:402px)
 {
@@ -2511,12 +2548,12 @@
    {
       margin-top: 80px;
    }
-   .p2,i.fas.fa-info
+   p.p2,i.fas.fa-info
    {
       font-size: 13px;
       margin-top: 100px;
    }
-   .section2 h2,.section4 h2,header h1,#marsheber h2
+   .section2 h5,.section4 h5,header h5,#marsheber h5
    {
       font-size: 16px;
    }
@@ -2526,5 +2563,13 @@
    .nav2 img 
    {
       margin-right: 33%;
+   }
+}
+@media screen and (max-width:679px) and (min-width:464px)
+{
+   .Filtres 
+   {
+      margin-bottom: 15px;
+      padding-left: 5px;
    }
 }
