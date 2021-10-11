@@ -4,13 +4,6 @@
    body{ 
       font-family :'Raleway',sans-serif;
    }
-
-   div a 
-   {
-      touch-action: manipulation;
-   }
-
-
    header
    {  width: 98%;
       height: 300px;
@@ -22,6 +15,14 @@
    {
       
       font-size: 22px;
+   }
+   .traitdesktop 
+   {
+      width: 100px;
+      height: 2px;
+      background-color: #0065FC;
+      margin-bottom: 70px;
+      margin-left: 74%;
    }
    img.imgreservia
    {   
@@ -53,13 +54,7 @@
       padding-left: 64%;
       
    }
-   .traitdesktop1 
-   {
-      width: 100%;
-      height: 2px;
-      background-color: #0065FC;
-      margin-top: -53px;
-   }
+  
 
    .enfant2 
    {
@@ -817,7 +812,7 @@
  
 @media screen and (max-width:463px) /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 {   
-   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
    body 
    {
       font-family:"raleway";
@@ -1725,6 +1720,7 @@
    {
       margin-top: 100px;
    }
+   
 }
 @media screen and (max-width: 1200px) and (min-width:877px)
 {
@@ -1732,6 +1728,14 @@
    {
       
       padding-left: 50%;
+   }
+   .traitdesktop 
+   {
+      width: 100px;
+      height: 2px;
+      background-color: #0065FC;
+      margin-bottom: 70px;
+      margin-left: 64%;
    }
  
 }
@@ -1787,6 +1791,17 @@
       margin-left: 3%;
       width: 82%;
       color: black;
+   }
+   .traitdesktop 
+   {
+      display: none;
+   }
+   .traitdesktop2
+   {  
+     
+      width: 50%;
+      height: 2px;
+      background-color: #0065FC;
    }
 }
 @media screen and (max-width:876px) and (min-width:680px)
@@ -1913,7 +1928,14 @@
 @media screen and (max-width:1000px) and (min-width:877px)  
 {
 
-
+   .traitdesktop 
+   {
+      width: 100px;
+      height: 2px;
+      background-color: #0065FC;
+      margin-bottom: 70px;
+      margin-left: 62%;
+   }
    .souligne2 
    {
       margin-right: -20px;
@@ -2063,11 +2085,6 @@
    {
       margin-left: -3%;
       font-size: 14px;
-   }
-
-   .traitdesktop1
-   {
-      width: 90%;
    }
    .boxinfo
    {
@@ -2314,38 +2331,43 @@
    }
    .apropos 
    {
-      width: 40%;
-      margin-right: 57%;
+     
+      margin-right: 52%;
       position: absolute;
-      font-size: 14px;
-      padding-bottom: 1%;
+      font-size: 12px;
+      padding-bottom: 3%;
    }
    .noshebergements 
    {
-      width: 40%;
+      width: 35%;
       margin-left:25%;
       position: absolute;
-      font-size: 14px;
+      font-size: 12px;
    }
    .assistance
    {
-      width: 30%;
+      width: 22%;
       margin-left: 95%;
       position: absolute;
-      font-size: 14px;
+      font-size: 12px;
    }
    span.assistance strong,span.noshebergements strong,span.apropos strong 
    {
-      font-size: 17px;
+      font-size: 15px;
    }
    span.noshebergements 
    {
-       width:150 px;
+       width:35%;
    }
    span.assistance  
    {
-      width: 98px;
-   }  
+      width: 22%;
+   } 
+   span.apropos
+   {
+      width: 33%;
+      margin-bottom: 2px;
+   } 
 }
 @media screen and (max-width:463px)
 {
