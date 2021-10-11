@@ -131,6 +131,11 @@
       border-radius: 0px 15px 15px 0px;
       
    }
+   .recherchebleu:hover 
+   {
+      opacity: .7;
+      border: #DEEBFF;
+   }
 
    .ulfiltres i
    {
@@ -545,6 +550,13 @@
       height: 96%;
       box-shadow: 1px 1px 6px silver ;
       
+   }
+   .photoa1:hover,.photoa2:hover,.photoa3:hover,.photoa4:hover,.photoa5:hover,.photoa6:hover,
+   .photoh1:hover,.photoh2:hover,.photoh3:hover,.photoh4:hover,.photoh5:hover,.photoh6:hover,
+   .photopop1:hover,.photopop2:hover,.photopop3:hover
+   {
+      opacity: .9;
+      border: #0065FC 1px solid;
    }
    .photoa1p
    {  width: 98%;
@@ -1744,6 +1756,10 @@
    .arecherche 
    {
       position: relative;
+   }
+   .arecherche:hover
+   {
+      opacity: 1;
    }
    #loupe
    {
